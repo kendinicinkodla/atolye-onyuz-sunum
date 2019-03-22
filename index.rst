@@ -9,27 +9,6 @@
       - içerik elemanları
 
 
-.. slide:: Boşluklar
-
-   - fazladan boşlukların bir önemi yok
-   - bir boşluk, iki boşluk, elli boşluk fark etmiyor
-   - boş satırlar da aynı şekilde
-
-   .. code-block:: html
-
-      Karga
-
-      İri yapılı, düz gagalı, pençeli, tüyleri çoğunlukla
-      siyah, yüksek ve rahatsız edici sesli kuş. Daha büyük
-      ve genellikle leş yiyici olanlarına "karakarga" veya
-      "kuzgun" denir.
-
-   .. speaker-notes::
-
-      - Herkes kendi hayvanının metin dosyasından paragrafını kopyalasın.
-      - Boşlukların etkisini tartış.
-
-
 .. slide:: Düz metin yetersiz
 
    - başlığı nasıl belirteceğim?
