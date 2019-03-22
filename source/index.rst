@@ -25,3 +25,42 @@
       - Linklerden oluşan bir sayfa hazırlanacak:
 
         https://kendinicinkodla.org/kutuphane/onyuz-gelistirme/malzeme/
+
+
+.. slide:: Bileşenler
+
+   .. container:: columns
+
+      .. container:: column flex flex-col items-center justify-center
+
+         .. rst-class:: border-b-2 px-4
+
+            içerik
+
+         ..
+
+         - yazılar
+         - resimler
+         - ...
+
+      .. container:: column flex flex-col items-center justify-center
+
+         .. rst-class:: border-b-2 px-4
+
+            biçim
+
+         ..
+
+         - renkler
+         - yazı tipleri
+         - ...
+
+   .. container:: columns substep mt-8
+
+      .. container:: column flex flex-col items-center
+
+         *HTML*
+
+      .. container:: column flex flex-col items-center
+
+         *CSS*
