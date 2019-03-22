@@ -10,5 +10,5 @@ Diğer hazırlıklar:
 - Hayvan foto ve metin dosyaları kütüphaneye koyulacak.
 - Linklerden oluşan bir sayfa hazırlanacak:
 
-    https://kendinicinkodla.org/kutuphane/onyuz-gelistirme/malzeme/
+    https://kendinicinkodla.org/kutuphane/onyuz-gelistirme/ornek-site-icerikleri/
 
