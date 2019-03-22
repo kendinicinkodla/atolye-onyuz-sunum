@@ -29,8 +29,20 @@ section.contents {
   color: #FFFFFF;
 }
 
+
+section.title h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 section.title .subtitle {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+section.title .copyright {
   text-align: center;
+  margin-top: 2em;
 }
 
 section.contents h2 {

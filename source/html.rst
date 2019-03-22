@@ -2,11 +2,13 @@
    :class: title
    :data-rel-x: 1050
 
-   .. container:: flex flex-col justify-center
+   .. container:: flex flex-col items-center
 
       .. container:: subtitle
 
          HTML
+
+      .. container:: copyright
 
          \H. Turgut Uyar
 
