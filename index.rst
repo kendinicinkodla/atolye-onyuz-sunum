@@ -9,35 +9,6 @@
       - içerik elemanları
 
 
-.. slide:: Düz metin yetersiz
-
-   - başlığı nasıl belirteceğim?
-   - nasıl tablo yapacağım?
-   - bir yeri nasıl vurgulayacağım?
-
-   ..
-
-   - işaretler koyalım
-
-
-.. slide:: İşaretleme
-
-   - işaretlemek istediğimiz yerin başına ve sonuna *etiketler* yazıyoruz
-
-   ..
-
-   - başlığı işaretleyelim: ``h1``
-
-   .. code-block:: html
-
-      <h1>Karga</h1>
-
-      İri yapılı, düz gagalı, pençeli, tüyleri çoğunlukla
-      siyah, yüksek ve rahatsız edici sesli kuş. Daha büyük
-      ve genellikle leş yiyici olanlarına "karakarga" veya
-      "kuzgun" denir.
-
-
 .. slide:: Etiketler
 
    - açılış etiketi: ``<isim>``
@@ -51,20 +22,6 @@
 
    - bazı elemanların kapanış etiketi yok
    - açılış etiketi: ``<isim/>``
-
-
-.. slide:: Paragraf
-
-   - paragraf elemanı: ``p``
-
-   .. code-block:: html
-
-      <h1>Karga</h1>
-
-      <p>İri yapılı, düz gagalı, pençeli, tüyleri çoğunlukla
-        siyah, yüksek ve rahatsız edici sesli kuş. Daha büyük
-        ve genellikle leş yiyici olanlarına "karakarga" veya
-        "kuzgun" denir.</p>
 
 
 .. slide:: Eleman nitelikleri

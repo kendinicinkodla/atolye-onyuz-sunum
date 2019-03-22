@@ -69,3 +69,60 @@
    :class: bg-transparent shadow-none
 
    ..
+
+
+.. slide:: Düz metin yetersiz
+   :data-rel-x: 1050
+
+   - başlığı nasıl belirteceğim?
+   - nasıl tablo yapacağım?
+   - bir yeri nasıl vurgulayacağım?
+
+   ..
+
+   - işaretler koyalım
+
+
+.. slide:: İşaretleme
+
+   - | işaretlemek istediğimiz yerin başına ve sonuna
+     | *etiketler* yazıyoruz
+
+   ..
+
+   - paragraf: ``p``
+   - başlık: ``h1``
+
+
+.. slide:: İşaretleme
+
+   .. container:: columns
+
+      .. container:: column w-1/2
+
+         .. code-block:: html
+
+            <h1>Karga</h1>
+
+            <p>İri yapılı, düz gagalı,
+            pençeli, tüyleri çoğunlukla
+            siyah, yüksek ve rahatsız
+            edici sesli kuş. Daha büyük
+            ve genellikle leş yiyici
+            olanlarına "karakarga" veya
+            "kuzgun" denir.</p>
+
+      .. container:: column w-1/2
+
+         .. image:: karga_etiketler.*
+            :alt: Boşlukların önemi yok
+            :width: 100%
+
+
+.. slide:: İşaretleme
+   :noheading:
+   :data-rel-x: 200
+   :data-scale: 0.5
+   :class: bg-transparent shadow-none
+
+   ..
