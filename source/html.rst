@@ -59,6 +59,7 @@
 
       - Herkes kendi hayvanının metin dosyasından paragrafını kopyalasın.
       - Boşlukların etkisini tartış.
+      - Türkçe harflerin bozuk çıktığına dikkat çek.
 
 
 .. slide:: Boşluklar
