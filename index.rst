@@ -9,20 +9,6 @@
       - içerik elemanları
 
 
-.. slide:: HTML
-
-   - *HyperText Markup Language*
-
-   ..
-
-   - düz metin
-
-   .. speaker-notes::
-
-      - Katılımcılar ilk dosyalarını oluştursunlar (``karga.html``).
-      - İçine herkes kendi hayvanının ismini yazsın.
-
-
 .. slide:: Boşluklar
 
    - fazladan boşlukların bir önemi yok
