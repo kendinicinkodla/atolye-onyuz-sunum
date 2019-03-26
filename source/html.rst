@@ -27,6 +27,7 @@
 
 
 .. slide:: Boşluklar
+   :data-overlays: (200, 0, 0, 0.5)
 
    - fazladan boşlukların etkisi yok
 
@@ -58,25 +59,7 @@
       - Türkçe harflerin bozuk çıktığına dikkat çek.
 
 
-.. slide:: Boşluklar
-   :noheading:
-   :data-rel-x: 200
-   :data-scale: 0.5
-   :class: bg-transparent shadow-none
-
-   ..
-
-
-.. slide:: Boşluklar
-   :noheading:
-   :data-rel-x: -200
-   :class: bg-transparent shadow-none
-
-   ..
-
-
 .. slide:: Düz metin yetersiz
-   :data-rel-x: 1050
 
    - başlığı nasıl belirteceğim?
    - nasıl tablo yapacağım?
@@ -102,6 +85,7 @@
 
 
 .. slide:: Temel elemanlar
+   :data-overlays: (200, 0, 0, 0.5)
 
    - paragraf: ``p``
    - başlık: ``h1``
@@ -128,25 +112,7 @@
             :alt: Paragraf ve başlık elemanlarının kullanımı.
 
 
-.. slide:: İşaretleme
-   :noheading:
-   :data-rel-x: 200
-   :data-scale: 0.5
-   :class: bg-transparent shadow-none
-
-   ..
-
-
-.. slide:: İşaretleme
-   :noheading:
-   :data-rel-x: -200
-   :class: bg-transparent shadow-none
-
-   ..
-
-
 .. slide:: İçiçe elemanlar
-   :data-rel-x: 1050
 
    - bir elemanın içine başka bir eleman konabilir
    - sonra açılan eleman önce kapanmalı
@@ -167,6 +133,7 @@
 
 
 .. slide:: İçiçe elemanlar
+   :data-overlays: (200, 0, 0, 0.5)
 
    - vurgu: ``em``
    - normalde italik gösterilir
@@ -193,25 +160,7 @@
             :alt: Vurgu elemanının italik gösterilimi.
 
 
-.. slide:: İçiçe elemanlar
-   :noheading:
-   :data-rel-x: 200
-   :data-scale: 0.5
-   :class: bg-transparent shadow-none
-
-   ..
-
-
-.. slide:: İçiçe elemanlar
-   :noheading:
-   :data-rel-x: -200
-   :class: bg-transparent shadow-none
-
-   ..
-
-
 .. slide:: Boş elemanlar
-   :data-rel-x: 1050
 
    - bazı elemanların kapanış etiketi yok:
 
