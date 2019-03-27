@@ -3,13 +3,11 @@
    :data-x: 0
    :data-rel-x: 1050
 
-   .. container:: flex flex-col justify-center
+   .. container:: copyright
 
-      .. container:: copyright
+      \H. Turgut Uyar
 
-         \H. Turgut Uyar
-
-         Mart 2019
+      Mart 2019
 
 
 .. slide:: Bileşenler
