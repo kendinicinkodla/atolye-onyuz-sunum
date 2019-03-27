@@ -118,19 +118,30 @@
    - bir elemanın içine başka bir eleman konabilir
    - sonra açılan eleman önce kapanmalı
 
-   .. code-block:: xml
+   .. container:: columns
 
-      <dış>dış bölge<iç>iç bölge</iç>dış bölge</dış>
+      .. container:: column
 
-   .. code-block:: xml
+         .. code-block:: xml
 
-      <dış>
-        dış bölge
-        <iç>
-          iç bölge
-        </iç>
-        dış bölge
-      </dış>
+            <dış>dış bölge<iç>iç bölge</iç>dış bölge</dış>
+
+      .. container:: column
+
+         .. code-block:: xml
+
+            <dış>
+              dış bölge
+              <iç>
+                iç bölge
+              </iç>
+              dış bölge
+            </dış>
+
+   .. speaker-notes::
+
+      - Editörde kod katlama özelliğini kullanarak etiketlerin
+        nasıl eşleştiklerini göster.
 
 
 .. slide:: Vurgu
