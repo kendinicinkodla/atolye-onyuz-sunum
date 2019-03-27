@@ -1,6 +1,7 @@
 .. slide:: Önyüz Geliştirme
    :subtitle: HTML
    :class: title
+   :data-x: 0
    :data-rel-x: 1050
 
    .. container:: flex flex-col items-center

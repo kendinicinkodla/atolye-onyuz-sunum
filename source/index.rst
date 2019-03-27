@@ -1,5 +1,6 @@
 .. slide:: Önyüz Geliştirme
    :class: title
+   :data-x: 0
    :data-rel-x: 1050
 
    .. container:: flex flex-col justify-center
