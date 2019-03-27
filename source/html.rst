@@ -86,8 +86,8 @@
 .. slide:: Temel elemanlar
    :data-views: (200, 120, 0, 0.5)
 
-   - paragraf: ``p``
    - başlık: ``h1``
+   - paragraf: ``p``
 
    .. container:: columns
 
@@ -110,13 +110,17 @@
          .. image:: karga_etiketler.*
             :alt: Paragraf ve başlık elemanlarının kullanımı.
 
+   .. speaker-notes::
+
+      - Boşlukların düzeldiğine dikkat çek.
+
 
 .. slide:: İçiçe elemanlar
 
    - bir elemanın içine başka bir eleman konabilir
    - sonra açılan eleman önce kapanmalı
 
-   .. container:: columns
+   .. container:: columns items-center
 
       .. container:: column
 
@@ -138,7 +142,7 @@
 
    .. speaker-notes::
 
-      - Editörde kod katlama özelliğini kullanarak etiketlerin
+      - Editörde kod katlama özelliğini kullanarak açma/kapama etiketlerinin
         nasıl eşleştiklerini göster.
 
 
