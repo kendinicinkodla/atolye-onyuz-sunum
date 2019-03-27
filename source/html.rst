@@ -100,12 +100,12 @@
             <h1>Karga</h1>
 
             <p>İri yapılı, düz gagalı,
-            pençeli, tüyleri çoğunlukla
-            siyah, yüksek ve rahatsız
-            edici sesli kuş. Daha büyük
-            ve genellikle leş yiyici
-            olanlarına "karakarga" veya
-            "kuzgun" denir.</p>
+              pençeli, tüyleri çoğunlukla
+              siyah, yüksek ve rahatsız
+              edici sesli kuş. Daha büyük
+              ve genellikle leş yiyici
+              olanlarına "karakarga" veya
+              "kuzgun" denir.</p>
 
       .. container:: column w-1/2
 
@@ -133,8 +133,8 @@
       </dış>
 
 
-.. slide:: İçiçe elemanlar
-   :data-views: (200, 0, 0, 0.5)
+.. slide:: Vurgu
+   :data-views: (-150, 200, 0, 0.5) (350, -100, 0, 0.5)
 
    - vurgu: ``em``
    - normalde italik gösterilir
@@ -148,12 +148,12 @@
             <h1>Karga</h1>
 
             <p>İri yapılı, düz gagalı,
-            pençeli, tüyleri çoğunlukla
-            siyah, yüksek ve rahatsız
-            edici sesli kuş. Daha büyük
-            ve genellikle leş yiyici
-            olanlarına <em>karakarga</em>
-            veya <em>kuzgun</em> denir.</p>
+              pençeli, tüyleri çoğunlukla
+              siyah, yüksek ve rahatsız
+              edici sesli kuş. Daha büyük
+              ve genellikle leş yiyici
+              olanlarına <em>karakarga</em>
+              veya <em>kuzgun</em> denir.</p>
 
       .. container:: column w-1/2 ml-8
 
@@ -182,6 +182,6 @@
    .. code-block:: html
 
       <p lang="tr">İri yapılı, düz gagalı, pençeli, tüyleri
-      çoğunlukla siyah, yüksek ve rahatsız edici sesli kuş.
-      Daha büyük ve genellikle leş yiyici olanlarına
-      "karakarga" veya "kuzgun" denir.</p>
+        çoğunlukla siyah, yüksek ve rahatsız edici sesli kuş.
+        Daha büyük ve genellikle leş yiyici olanlarına
+        "karakarga" veya "kuzgun" denir.</p>
