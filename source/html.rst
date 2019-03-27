@@ -27,7 +27,7 @@
 
 
 .. slide:: Boşluklar
-   :data-overlays: (200, 0, 0, 0.5)
+   :data-views: (200, 0, 0, 0.5)
 
    - fazladan boşlukların etkisi yok
 
@@ -85,7 +85,7 @@
 
 
 .. slide:: Temel elemanlar
-   :data-overlays: (200, 0, 0, 0.5)
+   :data-views: (200, 120, 0, 0.5)
 
    - paragraf: ``p``
    - başlık: ``h1``
@@ -133,7 +133,7 @@
 
 
 .. slide:: İçiçe elemanlar
-   :data-overlays: (200, 0, 0, 0.5)
+   :data-views: (200, 0, 0, 0.5)
 
    - vurgu: ``em``
    - normalde italik gösterilir
