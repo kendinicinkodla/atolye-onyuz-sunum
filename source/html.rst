@@ -443,3 +443,47 @@
 
       - ``ul`` yerine ``ol`` kullanarak sıralı liste denesinler.
       - Hangisinin daha anlamlı olduğunu tartış.
+
+
+.. slide:: Tablolar
+
+   - tablo: ``table``
+   - tablo satırı: ``tr``
+   - tablo hücresi: ``td``
+   - başlık hücresi: ``th``
+
+
+.. slide:: Tablolar
+   :data-views: (150, -100, 0, 0.5)
+
+   .. container:: columns
+
+      .. container:: column w-1/2
+
+         .. code-block:: html
+
+            <h2>Künye</h2>
+
+            <table>
+              <tr>
+                <th>Alem:</th>
+                <td>Hayvanlar</td>
+              </tr>
+              <tr>
+                <th>Şube:</th>
+                <td>Kordalılar</td>
+              </tr>
+              <tr>
+                <th>Sınıf:</th>
+                <td>Kuşlar</td>
+              </tr>
+            </table>
+
+      .. container:: column w-1/2
+
+         .. image:: images/karga_tablo.*
+            :alt: Sırasız listeler maddeler halinde gösterilir.
+
+   .. speaker-notes::
+
+      - ``td`` ile ``th`` elemanlarının görüntülenme farklarını tartış.

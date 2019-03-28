@@ -9,38 +9,6 @@
       - içerik elemanları
 
 
-.. slide:: Tablolar
-
-   - tablo elemanı: ``table``
-   - tablo satırı elemanı: ``tr``
-   - tablo hücresi elemanı: ``td``
-   - başlık hücresi elemanı: ``th``
-
-
-.. slide:: Tablo
-
-   .. code-block:: html
-
-      <table>
-        <tr>
-          <th>Alem:</th>
-          <td>Hayvanlar</td>
-        </tr>
-        <tr>
-          <th>Şube:</th>
-          <td>Kordalılar</td>
-        </tr>
-        <tr>
-          <th>Sınıf:</th>
-          <td>Kuşlar</td>
-        </tr>
-      </table>
-
-   .. speaker-notes::
-
-      - ``td`` ile ``th`` elemanlarının görüntülenme farklarını tartış.
-
-
 .. slide:: Sayfa şablonu
 
    - bir sitedeki sayfalar aynı şablona uyar
