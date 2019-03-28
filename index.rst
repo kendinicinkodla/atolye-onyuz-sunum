@@ -9,16 +9,6 @@
       - içerik elemanları
 
 
-.. slide:: Altbaşlıklar
-
-   - | 6 düzey başlık var:
-     | ``h1``, ``h2``, ``h3``, ``h4``, ``h5``, ``h6``
-
-   .. speaker-notes::
-
-      - Beslenme altbölümünü sayfaya eklesinler.
-
-
 .. slide:: Bağlantılar
 
    - bağlantı elemanı: ``a``

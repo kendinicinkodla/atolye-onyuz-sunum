@@ -55,6 +55,15 @@ section h2 {
   text-align: center;
 }
 
+section .task {
+  background-color: #EFEFEF;
+  font-size: 0.8em;
+  margin-left: 5em;
+  margin-bottom: 1em;
+  padding: 0.5em 1em 0.1em 1em;
+  border-radius: 10px;
+}
+
 .ref .highlight {
   width: fit-content;
   margin: 0 auto;

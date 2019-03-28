@@ -19,10 +19,18 @@
 
    - düz metin
 
+   .. container:: substep task
+
+      - ilk dosyamızı oluşturalım
+      - içine hayvanın ismini yazalım
+
+   .. container:: substep task
+
+      - ilk paragrafı ekleyelim
+
    .. speaker-notes::
 
-      - Katılımcılar ilk dosyalarını oluştursunlar: :file:`karga.html`
-      - İçine herkes kendi hayvanının ismini yazsın.
+      - Türkçe harflerin bozuk çıktığına dikkat çek.
 
 
 .. slide:: Boşluklar
@@ -51,12 +59,6 @@
          .. image:: karga_bosluklar.*
             :alt: Boşlukların etkisi olmadığından yazı tek blok halinde.
 
-   .. speaker-notes::
-
-      - Herkes kendi hayvanının metin dosyasından paragrafını kopyalasın.
-      - Boşlukların etkisini tartış.
-      - Türkçe harflerin bozuk çıktığına dikkat çek.
-
 
 .. slide:: Düz metin yetersiz
 
@@ -84,7 +86,7 @@
 
 
 .. slide:: Temel elemanlar
-   :data-views: (200, 120, 0, 0.5)
+   :data-views: (-150, 150, 0, 0.5)
 
    - başlık: ``h1``
    - paragraf: ``p``
@@ -147,7 +149,7 @@
 
 
 .. slide:: Vurgu
-   :data-views: (-150, 200, 0, 0.5) (350, -100, 0, 0.5)
+   :data-views: (-150, 200, 0, 0.5) (300, -100, 0, 0.25)
 
    - vurgu: ``em``
    - normalde italik gösterilir
@@ -247,10 +249,9 @@
           veya <em>kuzgun</em> denir.</p>
       </body>
 
-   .. speaker-notes::
+   .. container:: substep task
 
-      - Giriş metninden geri kalan paragrafları sayfaya eklesinler
-        (ikinci paragraf/ömür ve ilginç bilgi, henüz link yok).
+      - giriş kısmının kalan paragraflarını ekleyelim
 
 
 .. slide:: Baş
@@ -308,3 +309,13 @@
    .. speaker-notes::
 
       - Başlığın nerede göründüğünü sor.
+
+
+.. slide:: Altbaşlıklar
+
+   - | 6 düzey başlık var:
+     | ``h1``, ``h2``, ``h3``, ``h4``, ``h5``, ``h6``
+
+   .. container:: substep task
+
+      - beslenme altbölümünü sayfaya ekleyelim
