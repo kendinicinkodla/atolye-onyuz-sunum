@@ -377,8 +377,37 @@
 
    .. container:: task substep
 
-      - galeri altbölümüne küçük fotoları koyalım
+      - galeri altbölümüne küçük fotoların ilkini koyalım
 
    .. speaker-notes::
 
       - Foto adresi sitedeki listeden kopyalanabilir.
+      - Küçük foto genişliği 192px.
+
+
+.. slide:: Şekiller
+
+   - | şekiller değişik türden olabilir:
+     | foto, resim, diyagram, ...
+
+   ..
+
+   - şekil: ``figure``
+   - yazı eklemek istersek: ``figcaption``
+
+
+.. slide:: Şekiller
+
+   .. code-block:: html
+
+      <figure>
+        <img src="karga_1.jpg"
+             width="192"
+             alt="Foto 1"/>
+        <figcaption>Foto 1</figcaption>
+      </figure>
+
+   .. container:: task substep
+
+      - büyük resmi ``figure`` içine alalım, yazısı olmasın
+      - bütün küçük resimleri ekleyelim

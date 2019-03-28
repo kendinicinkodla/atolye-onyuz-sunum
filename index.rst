@@ -9,27 +9,6 @@
       - içerik elemanları
 
 
-.. slide:: Şekiller
-
-   - resim, diyagram, ...
-   - şekil elemanı: ``figure``
-   - yazı elemanı: ``figcaption``
-
-   .. code-block:: html
-      :class: text-4xl
-
-      <figure>
-        <img src="karga_1.jpg"
-             width="200"
-             alt="Foto 1"/>
-        <figcaption>Foto 1</figcaption>
-      </figure>
-
-   .. speaker-notes::
-
-      - Bütün küçük resimleri eklesinler.
-
-
 .. slide:: Listeler
 
    - liste elemanı: ``ul``
