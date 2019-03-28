@@ -319,3 +319,33 @@
    .. container:: substep task
 
       - beslenme altbölümünü sayfaya ekleyelim
+
+
+.. slide:: Bağlantılar
+
+   - bağlantı: ``a``
+   - hedef adres niteliği: ``href``
+   - normalde altı çizili gösterilir
+
+
+.. slide:: Bağlantılar
+   :data-views: (0, 0, 0, 0.5)
+
+   .. code-block:: html
+      :class: text-4xl
+
+      <p>Kargalar tuhaf sesleri, siyah renkleri, parlak cisimlere olan
+        düşkünlükleri ile bilinirler.
+        <a href="https://awesci.com/ultimate-problem-solving-crow/">Bazı
+        araştırmalar</a> kargaların çok zeki olduklarını
+        göstermektedir.</p>
+
+   .. container:: text-center mt-8
+
+      .. image:: karga_baglanti.*
+         :alt: Seçilen sözcükler bağlantının metnini oluşturuyor.
+
+   .. speaker-notes::
+
+      - Link adresi sitedeki listeden kopyalanabilir.
+      - Linkin metni ile adresinin farklı şeyler olduğunu vurgula.

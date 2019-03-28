@@ -9,25 +9,6 @@
       - içerik elemanları
 
 
-.. slide:: Bağlantılar
-
-   - bağlantı elemanı: ``a``
-   - bağlanılacak adres niteliği: ``href``
-
-   .. code-block:: html
-      :class: text-4xl
-
-      <p>Kargalar tuhaf sesleri, siyah renkleri, parlak cisimlere olan
-        düşkünlükleri ile bilinirler.
-        <a href="https://awesci.com/ultimate-problem-solving-crow/">Bazı
-        araştırmalar</a> kargaların çok zeki olduklarını
-        göstermektedir.</p>
-
-   .. speaker-notes::
-
-      - Link adresini sitedeki listeden kopyalayabilirler.
-
-
 .. slide:: Resimler
 
    - resim elemanı: ``img``
