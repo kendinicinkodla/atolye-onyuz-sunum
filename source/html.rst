@@ -332,7 +332,6 @@
    :data-views: (0, 0, 0, 0.5)
 
    .. code-block:: html
-      :class: text-4xl
 
       <p>Kargalar tuhaf sesleri, siyah renkleri, parlak cisimlere olan
         düşkünlükleri ile bilinirler.
@@ -366,16 +365,19 @@
 .. slide:: Resimler
 
    .. code-block:: html
-      :class: text-4xl
 
       <img src="karga.jpg"
            width="640"
            alt="Karga"/>
 
-   .. container:: text-center mt-8
+   .. container:: w-2/3 m-auto mt-2
 
       .. image:: images/karga_foto.*
          :alt: Foto belirtilen boya ölçekli olarak yerleştirilir.
+
+   .. container:: task substep
+
+      - galeri altbölümüne küçük fotoları koyalım
 
    .. speaker-notes::
 
