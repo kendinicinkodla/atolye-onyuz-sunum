@@ -55,6 +55,10 @@ section h2 {
   text-align: center;
 }
 
+section.contents em {
+  color: #ffff00;
+}
+
 section .task {
   background-color: #EFEFEF;
   font-size: 0.8em;

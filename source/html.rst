@@ -11,6 +11,15 @@
       Mart 2019
 
 
+.. slide:: İçindekiler
+   :class: contents
+
+   - *genel yapı*
+   - sayfa şablonu
+   - içerik elemanları
+   - gövde şablonu
+
+
 .. slide:: HTML
 
    - *HyperText Markup Language*
@@ -202,7 +211,16 @@
         "karakarga" veya "kuzgun" denir.</p>
 
 
-.. slide:: Temel elemanlar
+.. slide:: İçindekiler
+   :class: contents
+
+   - genel yapı
+   - *sayfa şablonu*
+   - içerik elemanları
+   - gövde şablonu
+
+
+.. slide:: Sayfa elemanları
 
    - sayfanın ana elemanı: ``html``
 
@@ -309,6 +327,15 @@
    .. speaker-notes::
 
       - Başlığın nerede göründüğünü sor.
+
+
+.. slide:: İçindekiler
+   :class: contents
+
+   - genel yapı
+   - sayfa şablonu
+   - *içerik elemanları*
+   - gövde şablonu
 
 
 .. slide:: Altbaşlıklar
@@ -494,6 +521,15 @@
       - ``td`` ile ``th`` elemanlarının görüntülenme farklarını tartış.
 
 
+.. slide:: İçindekiler
+   :class: contents
+
+   - genel yapı
+   - sayfa şablonu
+   - içerik elemanları
+   - *gövde şablonu*
+
+
 .. slide:: Gövde şablonu
 
    - bir sitedeki sayfalar aynı şablona uyar
@@ -651,3 +687,10 @@
 
       - görünür bir etkisi yok
       - diğer altbölümler: giriş, türler, künye, galeri
+
+
+.. slide:: Kapanış
+   :noheading:
+   :class: title
+
+   birinci oturumun sonu

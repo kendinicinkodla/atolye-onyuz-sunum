@@ -1,14 +1,3 @@
-
-
-.. slide:: HTML
-   :class: contents
-
-   .. container:: flex flex-col justify-center
-
-      - genel yapı
-      - içerik elemanları
-
-
 .. slide:: CSS
    :class: contents
 
