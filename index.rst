@@ -9,29 +9,6 @@
       - içerik elemanları
 
 
-.. slide:: Metin bölümleri
-
-   - ana içerik bölümler içine alınabilir: ``section``
-
-   .. code-block:: html
-
-      <section>
-        <h2>Beslenme</h2>
-
-        <p>Kargalar hemen hemen her şeyi yerler. Yetişkin bir karga
-          günde 300 gramdan fazla yiyecek tüketir.
-          Bilindiği kadarıyla kargalar ceviz, palamut, incir gibi
-          orman ürünlerini de tüketirler. Onları tüketirken
-          bir yandan da yayılmalarını sağlayarak doğaya katkıda
-          bulunurlar.</p>
-      </section>
-
-   .. speaker-notes::
-
-      - Giriş, türler ve galeri bölümlerini ``section`` içine alsınlar.
-      - Galeri için ``h2`` başlık eklesinler.
-
-
 .. slide:: CSS
    :class: contents
 

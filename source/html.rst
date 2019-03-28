@@ -617,3 +617,30 @@
 
          .. image:: images/karga_menu.*
             :alt: Navigasyona yalnızca linklerin yazılması yeterlidir.
+
+
+.. slide:: Metin bölümleri
+
+   - ana içerik bölümler içine alınabilir: ``section``
+
+   .. code-block:: html
+
+      <section>
+        <h2>Beslenme</h2>
+
+        <p>Kargalar hemen hemen her şeyi yerler. Yetişkin bir karga
+          günde 300 gramdan fazla yiyecek tüketir.
+          Bilindiği kadarıyla kargalar ceviz, palamut, incir gibi
+          orman ürünlerini de tüketirler. Onları tüketirken
+          bir yandan da yayılmalarını sağlayarak doğaya katkıda
+          bulunurlar.</p>
+      </section>
+
+   .. container:: substep task
+
+      - diğer altbölümleri de ``section`` içine alalım
+
+   .. speaker-notes::
+
+      - görünür bir etkisi yok
+      - diğer altbölümler: giriş, türler, künye, galeri
