@@ -466,16 +466,16 @@
 
             <table>
               <tr>
-                <th>Alem:</th>
-                <td>Hayvanlar</td>
-              </tr>
-              <tr>
-                <th>Şube:</th>
-                <td>Kordalılar</td>
-              </tr>
-              <tr>
                 <th>Sınıf:</th>
                 <td>Kuşlar</td>
+              </tr>
+              <tr>
+                <th>Familya:</th>
+                <td>Kargagiller</td>
+              </tr>
+              <tr>
+                <th>Cins:</th>
+                <td>Corvus</td>
               </tr>
             </table>
 
