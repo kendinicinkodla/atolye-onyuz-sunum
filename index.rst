@@ -9,26 +9,6 @@
       - içerik elemanları
 
 
-.. slide:: Resimler
-
-   - resim elemanı: ``img``
-   - resim adresi niteliği: ``src``
-   - boy niteliği: ``width``
-   - yerine konacak metin niteliği: ``alt``
-
-   .. code-block:: html
-      :class: text-4xl
-
-      <img src="karga.jpg"
-           width="640"
-           alt="Karga"/>
-
-   .. speaker-notes::
-
-      - Foto adresini sitedeki listeden kopyalayabilirler.
-      - ``alt`` niteliğinin öneminden söz et: görme özürlü kullanıcılar.
-
-
 .. slide:: Şekiller
 
    - resim, diyagram, ...

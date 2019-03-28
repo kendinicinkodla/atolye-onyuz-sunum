@@ -251,7 +251,7 @@
 
    .. container:: substep task
 
-      - giriş kısmının kalan paragraflarını ekleyelim
+      - ömür ve ilginç bilgi paragraflarını ekleyelim
 
 
 .. slide:: Baş
@@ -349,3 +349,34 @@
 
       - Link adresi sitedeki listeden kopyalanabilir.
       - Linkin metni ile adresinin farklı şeyler olduğunu vurgula.
+
+
+.. slide:: Resimler
+
+   - resim: ``img``
+   - adres niteliği: ``src``
+   - boy niteliği: ``width``
+   - yerine konacak metin niteliği: ``alt``
+
+   .. speaker-notes::
+
+      - ``alt`` niteliğinin öneminden söz et: görme özürlü kullanıcılar.
+
+
+.. slide:: Resimler
+
+   .. code-block:: html
+      :class: text-4xl
+
+      <img src="karga.jpg"
+           width="640"
+           alt="Karga"/>
+
+   .. container:: text-center mt-8
+
+      .. image:: images/karga_foto.*
+         :alt: Foto belirtilen boya ölçekli olarak yerleştirilir.
+
+   .. speaker-notes::
+
+      - Foto adresi sitedeki listeden kopyalanabilir.
