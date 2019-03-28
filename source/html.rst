@@ -325,7 +325,7 @@
 
    - bağlantı: ``a``
    - hedef adres niteliği: ``href``
-   - normalde altı çizili gösterilir
+   - normalde mavi renkte ve altı çizili gösterilir
 
 
 .. slide:: Bağlantılar
@@ -411,6 +411,11 @@
 
       - büyük fotoyu ``figure`` içine alalım, yazısı olmasın
       - bütün küçük resimleri ekleyelim
+
+   .. speaker-notes::
+
+      - ``figure`` olmasa ``img`` elemanları yanyana diziliyor
+      - ``figure`` ayrıca resmin etrafına boşluk ekliyor
 
 
 .. slide:: Listeler
@@ -534,7 +539,7 @@
 
    .. speaker-notes::
 
-      - görünür bir etkisi olmayacak
+      - Görüntülemeye bir etkisi yok.
 
 
 .. slide:: Altlık
@@ -559,6 +564,7 @@
 
    .. speaker-notes::
 
+      - Görüntülemeye bir etkisi yok.
       - ``(C)`` yerine ``&copy;`` gösterilebilir.
       - Unicode sembol seçtirilebilir: shapecatcher.com
 
@@ -593,6 +599,7 @@
 
    .. speaker-notes::
 
+      - Görüntülemeye bir etkisi yok.
       - Ana sayfanın bağlantı adresi: ``index.html``
 
 
