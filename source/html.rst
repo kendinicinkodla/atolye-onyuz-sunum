@@ -487,3 +487,104 @@
    .. speaker-notes::
 
       - ``td`` ile ``th`` elemanlarının görüntülenme farklarını tartış.
+
+
+.. slide:: Sayfa şablonu
+
+   - bir sitedeki sayfalar aynı şablona uyar
+
+   ..
+
+   - üstlük: logo, navigasyon menüsü, ...
+   - ana içerik
+   - altlık: site haritası, telif hakkı, ...
+
+
+.. slide:: Gövde bileşenleri
+
+   .. container:: columns
+
+      .. container:: column
+
+         - üstlük: ``header``
+         - ana: ``main``
+         - altlık: ``footer``
+
+      .. container:: column
+
+         .. code-block:: html
+
+            <body>
+              <header>
+                ... logo, navigasyon, ...
+              </header>
+
+              <main>
+                 ... ana içerik ...
+              </main>
+
+              <footer>
+                ... site haritası, ...
+              </footer>
+            <body>
+
+   .. container:: task substep
+
+      - ``body`` altındaki bütün içeriği ``main`` içine alalım
+
+   .. speaker-notes::
+
+      - görünür bir etkisi olmayacak
+
+
+.. slide:: Altlık
+
+   - altlığa ana içerikle aynı türden elemanlar yazılır
+
+   .. container:: columns mt-12
+
+      .. container:: column w-2/3
+
+         .. code-block:: html
+
+            <footer>
+              <p>(C) 2019, Kendin için Kodla</p>
+            </footer>
+
+      .. container:: column
+
+         .. image:: images/karga_altlik.*
+            :alt: Altlık ana içerikle aynı şekilde görüntülenir.
+
+   .. speaker-notes::
+
+      - ``(C)`` yerine ``&copy;`` gösterilebilir.
+      - Unicode sembol seçtirilebilir: shapecatcher.com
+
+
+.. slide:: Üstlük
+
+   - üstlük de aynı şekilde
+
+   .. container:: columns mt-12
+
+      .. container:: column w-2/3
+
+         .. code-block:: html
+
+            <header>
+              <figure>
+                <img src="logo_siyah.png"
+                     width="200"
+                     alt="Doğa Kaşifleri logosu"/>
+              </figure>
+            </header>
+
+      .. container:: column
+
+         .. image:: images/karga_ustluk.*
+            :alt: Üstlük de ana içerikle aynı şekilde görüntülenir.
+
+   .. container:: substep task
+
+      - logoyu ana sayfaya bağlantı haline getirelim
