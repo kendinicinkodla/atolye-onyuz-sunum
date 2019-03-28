@@ -251,3 +251,60 @@
 
       - Giriş metninden geri kalan paragrafları sayfaya eklesinler
         (ikinci paragraf/ömür ve ilginç bilgi, henüz link yok).
+
+
+.. slide:: Baş
+
+   - sayfa bilgileri
+
+   ..
+
+   - sayfa başlığı
+   - sayfanın yazarı, tarihi, telif hakkı, ...
+
+   .. container:: substep
+
+      - hangi harflerle yazıldığı: ``charset``
+
+
+.. slide:: Harf tabloları
+   :data-views: (200, 0, 0, 0.5)
+
+   - hangi sayı hangi harfe karşı düşecek?
+   - en yaygın kullanılan tablo: ``utf-8``
+
+      .. container:: columns mt-8
+
+         .. container:: column w-1/2
+
+            .. code-block:: html
+
+               <head>
+                 <meta charset="utf-8"/>
+               </head>
+
+         .. container:: column w-1/2
+
+            .. image:: karga_charset.*
+               :alt: Harf tablosu belirtilince Türkçe harfler doğru çıkıyor.
+
+   .. speaker-notes::
+
+      - Türkçe harflerin düzeldiğine dikkat çek.
+      - Editörün kullandığını seçmek gerektiğini vurgula.
+
+
+.. slide:: Sayfa başlığı
+
+   - sayfa başlığı: ``title``
+
+   .. code-block:: html
+
+      <head>
+        <meta charset="utf-8"/>
+        <title>Doğa Kaşifleri - Karga</title>
+      </head>
+
+   .. speaker-notes::
+
+      - Başlığın nerede göründüğünü sor.

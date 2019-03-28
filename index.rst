@@ -9,41 +9,6 @@
       - içerik elemanları
 
 
-.. slide:: Sayfa bilgileri
-
-   - sayfa başlığı elemanı: ``title``
-   - yazarı, tarihi, ...
-
-   ..
-
-   - hangi harflerle yazıldığı: ``charset``
-
-
-   .. speaker-notes::
-
-      - Harfleri sayılara karşı düşürme tablolarından söz et.
-
-
-.. slide:: Baş
-
-   .. code-block:: html
-
-      <!DOCTYPE html>
-      <html lang="tr">
-        <head>
-          <meta charset="utf-8"/>
-          <title>Doğa Kaşifleri - Karga</title>
-        </head>
-        <body>
-          ...
-        </body>
-      </html>
-
-   .. speaker-notes::
-
-      Başlığın nerede göründüğünü sor.
-
-
 .. slide:: Altbaşlıklar
 
    - | 6 düzey başlık var:
