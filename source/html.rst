@@ -489,7 +489,7 @@
       - ``td`` ile ``th`` elemanlarının görüntülenme farklarını tartış.
 
 
-.. slide:: Sayfa şablonu
+.. slide:: Gövde şablonu
 
    - bir sitedeki sayfalar aynı şablona uyar
 
@@ -538,6 +538,7 @@
 
 
 .. slide:: Altlık
+   :data-views: (250, 0, 0, 0.5)
 
    - altlığa ana içerikle aynı türden elemanlar yazılır
 
@@ -563,6 +564,7 @@
 
 
 .. slide:: Üstlük
+   :data-views: (200, 0, 0, 0.5)
 
    - üstlük de aynı şekilde
 
@@ -588,3 +590,30 @@
    .. container:: substep task
 
       - logoyu ana sayfaya bağlantı haline getirelim
+
+   .. speaker-notes::
+
+      - Ana sayfanın bağlantı adresi: ``index.html``
+
+
+.. slide:: Navigasyon
+   :data-views: (250, 0, 0, 0.5)
+
+   - navigasyon menüsü: ``nav``
+
+   .. container:: columns mt-12
+
+      .. container:: column w-2/3
+
+         .. code-block:: html
+
+            <nav>
+              <a href="index.html"> ... logo ... </a>
+              <a href="turler.html">Hayvan türleri</a>
+              <a href="oyun.html">Biliyor musun?</a>
+            </nav>
+
+      .. container:: column
+
+         .. image:: images/karga_menu.*
+            :alt: Navigasyona yalnızca linklerin yazılması yeterlidir.

@@ -9,26 +9,6 @@
       - içerik elemanları
 
 
-.. slide:: Navigasyon
-
-   - navigasyon elemanı: ``nav``
-
-   .. code-block:: html
-
-      <header>
-        <nav>
-          <a href="index.html">Ana sayfa</a>
-          <a href="hayvan-turleri.html">Hayvan türleri</a>
-          <a href="biliyor-musun.html">Biliyor musun?</a>
-        </nav>
-      </header>
-
-   .. speaker-notes::
-
-      - Logoyu üstlüğe eklesinler.
-      - Logo ana sayfaya link olsun.
-
-
 .. slide:: Metin bölümleri
 
    - ana içerik bölümler içine alınabilir: ``section``
