@@ -356,7 +356,7 @@
 
 
 .. slide:: Bağlantılar
-   :data-views: (0, 0, 0, 0.5)
+   :data-views: (20, 140, 0, 0.75)
 
    .. code-block:: html
 
@@ -446,7 +446,7 @@
 
 
 .. slide:: Listeler
-   :data-views: (200, 100, 0, 0.5)
+   :data-views: (-100, 100, 0, 0.5) (300, 0, 0, 0.5)
 
    - sırasız liste: ``ul``
    - sıralı liste: ``ol``
@@ -486,7 +486,7 @@
 
 
 .. slide:: Tablolar
-   :data-views: (150, -100, 0, 0.5)
+   :data-views: (-100, 0, 0, 0.5) (250, -100, 0, 0.5)
 
    .. container:: columns
 
@@ -545,13 +545,7 @@
 
    .. container:: columns
 
-      .. container:: column
-
-         - üstlük: ``header``
-         - ana: ``main``
-         - altlık: ``footer``
-
-      .. container:: column
+      .. container:: column mr-8
 
          .. code-block:: html
 
@@ -569,9 +563,15 @@
               </footer>
             <body>
 
-   .. container:: task substep
+      .. container:: column
 
-      - ``body`` altındaki bütün içeriği ``main`` içine alalım
+         - üstlük: ``header``
+         - ana: ``main``
+         - altlık: ``footer``
+
+         .. container:: task substep m-0
+
+            - ``body`` altındakileri ``main`` içine alalım
 
    .. speaker-notes::
 
@@ -610,7 +610,7 @@
 
    - üstlük de aynı şekilde
 
-   .. container:: columns mt-12
+   .. container:: columns mt-12 mr-8
 
       .. container:: column w-2/3
 
@@ -644,7 +644,7 @@
 
    - navigasyon menüsü: ``nav``
 
-   .. container:: columns mt-12
+   .. container:: columns mt-12 mr-4
 
       .. container:: column w-2/3
 
@@ -672,9 +672,7 @@
         <h2>Beslenme</h2>
 
         <p>Kargalar hemen hemen her şeyi yerler. Yetişkin bir karga
-          günde 300 gramdan fazla yiyecek tüketir.
-          Bilindiği kadarıyla kargalar ceviz, palamut, incir gibi
-          orman ürünlerini de tüketirler. Onları tüketirken
+          günde 300 gramdan fazla yiyecek tüketir. Onları tüketirken
           bir yandan da yayılmalarını sağlayarak doğaya katkıda
           bulunurlar.</p>
       </section>
