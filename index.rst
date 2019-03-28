@@ -9,28 +9,6 @@
       - içerik elemanları
 
 
-.. slide:: Listeler
-
-   - liste elemanı: ``ul``
-   - liste maddesi elemanı: ``li``
-
-   .. code-block:: html
-      :class: text-4xl
-
-      <h2>Türler</h2>
-
-      <ul>
-        <li>Avustralya kargası</li>
-        <li>Orman kargası</li>
-        <li>Küçük karga</li>
-      </ul>
-
-   .. speaker-notes::
-
-      - ``ul`` yerine ``ol`` kullanarak sıralı liste denesinler.
-      - Hangisinin daha anlamlı olduğunu tartış.
-
-
 .. slide:: Tablolar
 
    - tablo elemanı: ``table``

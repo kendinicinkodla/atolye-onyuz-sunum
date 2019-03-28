@@ -407,7 +407,39 @@
         <figcaption>Foto 1</figcaption>
       </figure>
 
-   .. container:: task substep
+   .. container:: task substep mt-4
 
-      - büyük resmi ``figure`` içine alalım, yazısı olmasın
+      - büyük fotoyu ``figure`` içine alalım, yazısı olmasın
       - bütün küçük resimleri ekleyelim
+
+
+.. slide:: Listeler
+   :data-views: (200, 100, 0, 0.5)
+
+   - sırasız liste: ``ul``
+   - sıralı liste: ``ol``
+   - liste maddesi: ``li``
+
+   .. container:: columns
+
+      .. container:: column w-1/2
+
+         .. code-block:: html
+
+            <h2>Türler</h2>
+
+            <ul>
+              <li>Avustralya kargası</li>
+              <li>Orman kargası</li>
+              <li>Küçük karga</li>
+            </ul>
+
+      .. container:: column
+
+         .. image:: images/karga_liste.*
+            :alt: Sırasız listeler maddeler halinde gösterilir.
+
+   .. speaker-notes::
+
+      - ``ul`` yerine ``ol`` kullanarak sıralı liste denesinler.
+      - Hangisinin daha anlamlı olduğunu tartış.
