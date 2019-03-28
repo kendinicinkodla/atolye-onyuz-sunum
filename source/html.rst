@@ -56,7 +56,7 @@
 
       .. container:: column w-1/2
 
-         .. image:: karga_bosluklar.*
+         .. image:: images/karga_bosluklar.*
             :alt: Boşlukların etkisi olmadığından yazı tek blok halinde.
 
 
@@ -109,7 +109,7 @@
 
       .. container:: column w-1/2
 
-         .. image:: karga_etiketler.*
+         .. image:: images/karga_etiketler.*
             :alt: Paragraf ve başlık elemanlarının kullanımı.
 
    .. speaker-notes::
@@ -172,7 +172,7 @@
 
       .. container:: column w-1/2 ml-8
 
-         .. image:: karga_vurgu.*
+         .. image:: images/karga_vurgu.*
             :alt: Vurgu elemanının italik gösterilimi.
 
 
@@ -286,7 +286,7 @@
 
          .. container:: column w-1/2
 
-            .. image:: karga_charset.*
+            .. image:: images/karga_charset.*
                :alt: Harf tablosu belirtilince Türkçe harfler doğru çıkıyor.
 
    .. speaker-notes::
@@ -342,7 +342,7 @@
 
    .. container:: text-center mt-8
 
-      .. image:: karga_baglanti.*
+      .. image:: images/karga_baglanti.*
          :alt: Seçilen sözcükler bağlantının metnini oluşturuyor.
 
    .. speaker-notes::
