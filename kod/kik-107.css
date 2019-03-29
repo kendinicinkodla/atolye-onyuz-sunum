@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700|Nunito:400,700');
+
+th {
+  text-align: left;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.125rem;
+}
+
+h1, h2 {
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+em {
+  font-style: normal;
+  color: #C00000;
+}
