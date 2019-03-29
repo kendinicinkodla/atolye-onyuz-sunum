@@ -478,7 +478,7 @@
       - Yönlerin verilişi saat yönünde.
 
 
-.. slide:: Dış boşluk
+.. slide:: Dış boşluklar
    :data-views: (0, 0, 0, 0.6)
 
    .. code-block:: css
@@ -498,3 +498,37 @@
 
          .. image:: images/stil-bosluk-ust-sonra.*
             :alt: Kuraldan sonra altlığın ana gövdeye uzaklığı artıyor.
+
+
+.. slide:: İç boşluklar
+
+   .. container:: ref
+
+      ::
+
+        padding: UZAKLIK;
+
+   - dış boşluklarla aynı şekilde
+
+
+.. slide:: Dış boşluk
+   :data-views: (0, 0, 0, 0.6)
+
+   .. code-block:: css
+
+      footer {
+        margin-top: 4em;
+        padding: 1em;
+      }
+
+   .. container:: columns mt-8
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-bosluk-ust-sonra.*
+            :alt: Kuraldan önce altlıktaki metnin etrafında boşluk yok.
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-bosluk-ic-sonra.*
+            :alt: Kuraldan sonra altlıktaki metnin dört yanında boşluk var.

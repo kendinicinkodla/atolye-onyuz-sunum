@@ -8,17 +8,6 @@
       - renkler
       - yerleştirme
 
-.. slide:: İç boşluklar
-
-   - ayar ismi: ``padding``
-
-   .. code-block:: css
-
-      footer {
-        margin-top: 4em;
-        padding: 1em;
-      }
-
 
 .. slide:: İçiçe eleman seçimi
 
