@@ -158,13 +158,21 @@
 .. slide:: Çoklu elemanlar
 
    - birden fazla elemana aynı stil uygulanabilir
-   - elemanları virgülle ayırarak
+   - elemanları virgülle ayırarak:
 
    .. code-block:: css
 
-      h1, h2 {
-        font-family: 'Nunito', sans-serif;
+      eleman_1, eleman_2 {
+         ayar_ismi: ayar_değeri;
       }
+
+   .. container:: substep mt-8
+
+      .. code-block:: css
+
+         h1, h2 {
+           font-family: 'Nunito', sans-serif;
+         }
 
 
 .. slide:: Yazı boyu
@@ -532,3 +540,41 @@
 
          .. image:: images/stil-bosluk-ic-sonra.*
             :alt: Kuraldan sonra altlıktaki metnin dört yanında boşluk var.
+
+
+.. slide:: İçiçe eleman seçimi
+
+   .. container:: task
+
+      - üstlükteki bağlantıların altı çizili olmasın
+      - ama metin içindekiler eskisi gibi kalsın
+
+   .. container:: substep
+
+      - alt eleman seçmek için:
+
+      .. code-block:: css
+
+         üst_eleman alt_eleman {
+            ayar_ismi: ayar_değeri;
+         }
+
+
+.. slide:: İçiçe eleman seçimi
+   :data-views: (200, -100, 0, 0.5) (0, 300, 0, 0.5)
+
+   .. container:: columns
+
+      .. container:: column
+
+         .. code-block:: css
+
+            header a {
+              text-decoration: none;
+              margin-right: 1em;
+            }
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-ustluk-baglanti-sonra.*
+            :alt: Kuraldan sonra sadece üstlükteki bağlantıların altı çizili değil.

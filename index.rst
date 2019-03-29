@@ -8,18 +8,6 @@
       - renkler
       - yerleştirme
 
-
-.. slide:: İçiçe eleman seçimi
-
-   - başka bir elemanın altındaki elemanlar
-
-   .. code-block:: css
-
-      header a {
-        text-decoration: none;
-        margin-left: 1em;
-      }
-
    .. speaker-notes::
 
       Üstlükte şunları ayarlasınlar:
