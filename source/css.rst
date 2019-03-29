@@ -547,6 +547,9 @@
    .. container:: task
 
       - üstlükteki bağlantıların altı çizili olmasın
+
+   .. container:: substep task
+
       - ama metin içindekiler eskisi gibi kalsın
 
    .. container:: substep
@@ -558,6 +561,10 @@
          üst_eleman alt_eleman {
             ayar_ismi: ayar_değeri;
          }
+
+   .. speaker-notes::
+
+      - Önce ``a { text-decoration: none; }`` göster.
 
 
 .. slide:: İçiçe eleman seçimi
