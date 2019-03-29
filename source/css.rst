@@ -585,3 +585,63 @@
 
          .. image:: images/stil-ustluk-baglanti-sonra.*
             :alt: Kuraldan sonra sadece üstlükteki bağlantıların altı çizili değil.
+
+
+.. slide:: Düzenlemeler
+
+   .. container:: task
+
+      - üstlüğü düzenleyelim:
+
+        - renkler
+        - logo
+        - yazı tipleri
+        - boşluklar
+
+   .. speaker-notes::
+
+      - Linklerde ``text-transform: uppercase`` göster.
+      - Sayfa dilini Türkçe vermenin etkisini tartış.
+
+
+.. slide:: Eleman yüzdürme
+
+   .. container:: ref
+
+      ::
+
+        float: YÖN;
+
+   - sol: ``left``
+   - sağ: ``right``
+
+   ..
+
+   - diğer elemanlar bunun etrafından "akar"
+
+
+.. slide:: Eleman yüzdürme
+   :data-views: (-100, 100, 0, 0.5)
+
+   .. code-block:: css
+
+      header figure {
+        float: left;
+      }
+
+   .. container:: text-center mt-8
+
+      .. image:: images/stil-yuzdurme-once.*
+         :alt: Kuraldan önce logonun yanındaki bağlantılar alt satıra iniyor.
+
+   .. container:: text-center mt-12
+
+      .. image:: images/stil-yuzdurme-sonra.*
+         :alt: Kuraldan sonra logonun yanındaki bağlantılar aynı satırda kalıyor.
+
+   .. speaker-notes::
+
+      - Navigasyon linklerine boşluk vermek iyi olabilir.
+
+      - Bu yansıdan sonra ara verilebilir. HTML dosyasında değişiklikler
+        gerekecek.

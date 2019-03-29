@@ -8,45 +8,6 @@
       - renkler
       - yerleştirme
 
-   .. speaker-notes::
-
-      Üstlükte şunları ayarlasınlar:
-
-      - iç boşluklar
-
-      - arka plan rengi
-
-        - siyah arka plan seçerlerse beyaz logo
-
-      - arka plan rengine uygun link rengi
-
-      - linklerde ``text-transform: uppercase``
-
-        - sayfa dilini Türkçe vermenin etkisini tartış
-        - büyük harfe göre uygun yazı tipi boyu
-
-
-.. slide:: Eleman kaydırma
-
-   - ayar ismi: ``float``
-   - bir elemanı sağa veya sola kaydırma
-   - diğer elemanlar bunun etrafından "akar"
-
-   .. code-block:: css
-
-      header nav {
-        float: right;
-      }
-
-   .. speaker-notes::
-
-      - Navigasyona boşluk vermek iyi olabilir.
-
-      ..
-
-      - Bu yansıdan sonra ara verilebilir. HTML dosyasında değişiklikler
-        gerekecek.
-
 
 .. slide:: Eleman genişliği
 
