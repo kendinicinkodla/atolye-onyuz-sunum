@@ -9,25 +9,6 @@
       - yerleştirme
 
 
-.. slide:: Stil bağlantısı
-
-   - HTML dosyasının baş kısmında: ``link``
-   - stil dosyası olduğunu belirtmek için: ``rel``
-   - stil dosyası adresi: ``href``
-
-   .. code-block:: html
-
-      <head>
-        <meta charset="utf-8"/>
-        <title>Doğa Kaşifleri - Karga</title>
-        <link rel="stylesheet" href="kik.css"/>
-      </head>
-
-   .. speaker-notes::
-
-      - Boş ``kik.css`` dosyasını oluştursunlar ve bağlasınlar.
-
-
 .. slide:: Stil ayarları
 
    - hangi elemanlara uygulanacak?
