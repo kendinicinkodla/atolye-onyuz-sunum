@@ -9,55 +9,6 @@
       - yerleştirme
 
 
-.. slide:: Yazı boyu
-
-   .. container:: ref
-
-      ::
-
-        font-size: BOYUT;
-
-   - boyut çeşitli birimlerde verilebilir
-   - ``px``
-   - ``em`` --- geçerli boya göre ölçek
-
-
-.. slide:: Yazı boyu
-
-   .. container:: columns
-
-      .. container:: column w-1/2
-
-         .. code-block:: css
-
-            body {
-              font-family: 'Cabin', sans-serif;
-              font-size: 18px;
-            }
-
-      .. container:: column w-1/2
-
-         .. code-block:: css
-
-            h1 {
-              font-size: 2em;
-            }
-
-   .. container:: columns mt-8
-
-      .. container:: column text-center
-
-         .. image:: font-size-before.*
-
-      .. container:: column text-center
-
-         .. image:: font-size-after.*
-
-   .. speaker-notes::
-
-      - Asıl halinde ``h1`` boyu ``1.5em``.
-
-
 .. slide:: Yazı tipi stili
 
    .. container:: ref
