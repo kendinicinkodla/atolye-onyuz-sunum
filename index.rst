@@ -9,19 +9,6 @@
       - yerleştirme
 
 
-.. slide:: Satır aralığı
-
-   - ayar ismi: ``line-height``
-
-   .. code-block:: css
-
-      body {
-        font-family: 'Arial', 'Helvetica', sans-serif;
-        font-size: 16px;
-        line-height: 1.5em;
-      }
-
-
 .. slide:: Dış boşluklar
 
    - ayar ismi: ``margin``

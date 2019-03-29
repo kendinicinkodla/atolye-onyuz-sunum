@@ -406,3 +406,38 @@
         - arka plan rengi, yazı rengi
         - yazı boyu
         - metin hizalaması
+
+
+.. slide:: Satır aralığı
+
+   .. container:: ref
+
+      ::
+
+        line-height: YÜKSEKLİK;
+
+   - yazı boyuna göre katsayı
+
+
+.. slide:: Satır aralığı
+   :data-views: (0, 0, 0, 0.5)
+
+   .. code-block:: css
+
+      body {
+        font-family: 'Cabin', sans-serif;
+        font-size: 1.125rem;
+        line-height: 1.5;
+      }
+
+   .. container:: columns mt-8
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-satir-araligi-once.*
+            :alt: Kuraldan önce satır aralıkları az.
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-satir-araligi-sonra.*
+            :alt: Kuraldan sonra satır aralıkları artıyor.
