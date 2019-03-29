@@ -9,20 +9,6 @@
       - yerleştirme
 
 
-.. slide:: Arka plan rengi
-
-   - ayar ismi: ``background-color``
-
-   .. speaker-notes::
-
-      Altlıklta şunları değiştirsinler:
-
-      - arka plan rengi
-      - metin rengi
-      - metin hizalaması
-      - yazı tipi boyu
-
-
 .. slide:: Satır aralığı
 
    - ayar ismi: ``line-height``

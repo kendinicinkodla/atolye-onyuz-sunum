@@ -352,7 +352,7 @@
 
       ::
 
-        color: RENK_DEĞERİ;
+        color: RENK;
 
    - rengin ismi: ``white``, ``black``, ``red``, ...
    - RGB değeri
@@ -383,3 +383,26 @@
 
          .. image:: images/stil-yazi-rengi-sonra.*
             :alt: Kuraldan sonra vurgular kırmızı gösteriliyor.
+
+
+.. slide:: Arka plan rengi
+   :data-views: (0, 0, 0, 0.6)
+
+   .. container:: ref
+
+      ::
+
+        background-color: RENK;
+
+   .. container:: mt-8 text-center
+
+      .. image:: images/stil-altlik-sonra.*
+         :alt: Altlıkta siyah arka plan, beyaz yazı, küçük boy, sağa dayalı.
+
+   .. container:: substep task mt-8
+
+      - altlıkta şunları ayarlayalım:
+
+        - arka plan rengi, yazı rengi
+        - yazı boyu
+        - metin hizalaması
