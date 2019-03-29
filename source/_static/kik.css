@@ -91,6 +91,10 @@ section .task {
   font-size: 0.85em;
 }
 
+.column.flex-unset {
+  flex: unset;
+}
+
 @media print {
   section h2,
   section.title,
