@@ -1,14 +1,3 @@
-.. slide:: CSS
-   :class: contents
-
-   .. container:: flex flex-col justify-center
-
-      - genel yapı
-      - yazı stilleri
-      - renkler
-      - yerleştirme
-
-
 .. slide:: Eleman genişliği
 
    - ayar ismi: ``width``

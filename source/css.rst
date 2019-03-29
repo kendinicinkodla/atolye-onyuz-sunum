@@ -11,6 +11,16 @@
       Mart 2019
 
 
+.. slide:: İçindekiler
+   :class: contents
+
+   - *genel yapı*
+   - yazı stilleri
+   - renkler
+   - boşluklar
+   - yerleştirme
+
+
 .. slide:: CSS
 
    - *Cascading Style Sheets*
@@ -89,6 +99,17 @@
          .. image:: images/stil-hizalama-sonra.*
             :alt: Kuraldan sonra başlık hücreleri sola hizalı.
 
+
+.. slide:: İçindekiler
+   :class: contents
+
+   - genel yapı
+   - *yazı stilleri*
+   - renkler
+   - boşluklar
+   - yerleştirme
+
+
 .. slide:: Yazı tipi
 
    .. container:: ref
@@ -102,6 +123,7 @@
 
    - | son seçenek şunlardan biri olmalı:
      | ``serif``, ``sans-serif``, ``monospace``
+
 
 .. slide:: Google Fonts
 
@@ -354,6 +376,16 @@
       - Altçizginin kötü görünümünden söz et (``g`` harflerini göster).
 
 
+.. slide:: İçindekiler
+   :class: contents
+
+   - genel yapı
+   - yazı stilleri
+   - *renkler*
+   - boşluklar
+   - yerleştirme
+
+
 .. slide:: Yazı rengi
 
    .. container:: ref
@@ -451,6 +483,16 @@
             :alt: Kuraldan sonra satır aralıkları artıyor.
 
 
+.. slide:: İçindekiler
+   :class: contents
+
+   - genel yapı
+   - yazı stilleri
+   - renkler
+   - *boşluklar*
+   - yerleştirme
+
+
 .. slide:: Boşluklar
    :data-views: (0, -50, 0, 0.5)
 
@@ -516,7 +558,7 @@
 
         padding: UZAKLIK;
 
-   - dış boşluklarla aynı şekilde
+   - dış boşluklarla aynı yazım
 
 
 .. slide:: Dış boşluk
@@ -602,6 +644,16 @@
 
       - Linklerde ``text-transform: uppercase`` göster.
       - Sayfa dilini Türkçe vermenin etkisini tartış.
+
+
+.. slide:: İçindekiler
+   :class: contents
+
+   - genel yapı
+   - yazı stilleri
+   - renkler
+   - boşluklar
+   - *yerleştirme*
 
 
 .. slide:: Eleman yüzdürme
