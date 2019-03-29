@@ -8,20 +8,6 @@
       - renkler
       - yerleştirme
 
-
-.. slide:: Dış boşluklar
-
-   - ayar ismi: ``margin``
-   - ``-left``, ``-right``, ``-top``, ``-bottom``
-   - belirtilmezse hepsi
-
-   .. code-block:: css
-
-      footer {
-        margin-top: 4em;
-      }
-
-
 .. slide:: İç boşluklar
 
    - ayar ismi: ``padding``

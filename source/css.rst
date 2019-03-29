@@ -441,3 +441,60 @@
 
          .. image:: images/stil-satir-araligi-sonra.*
             :alt: Kuraldan sonra satır aralıkları artıyor.
+
+
+.. slide:: Boşluklar
+   :data-views: (0, -50, 0, 0.5)
+
+   .. container:: w-1/2 m-auto
+
+      .. image:: images/kutu-modeli.*
+         :alt: Elemandan dışarı yönde boşluklar marjin, içeri yöndekiler dolgu.
+
+   - elemandan dışarıya doğru: ``margin``
+   - elemandan içeriye doğru: ``padding``
+
+
+.. slide:: Dış boşluklar
+
+   .. container:: ref
+
+      ::
+
+        margin: UZAKLIK;
+
+   - soldan: ``margin-left``
+   - sağdan: ``margin-right``
+   - üstten: ``margin-top``
+   - alttan: ``margin-bottom``
+
+   ..
+
+   - yön belirtilmezse: bütün yönlerden aynı uzaklık
+   - veya: ``üst sağ alt sol``
+
+   .. speaker-notes::
+
+      - Yönlerin verilişi saat yönünde.
+
+
+.. slide:: Dış boşluk
+   :data-views: (0, 0, 0, 0.6)
+
+   .. code-block:: css
+
+      footer {
+        margin-top: 4em;
+      }
+
+   .. container:: columns mt-8
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-altlik-sonra.*
+            :alt: Kuraldan önce altlığın ana gövdeye uzaklığı az.
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-bosluk-ust-sonra.*
+            :alt: Kuraldan sonra altlığın ana gövdeye uzaklığı artıyor.
