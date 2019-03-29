@@ -229,3 +229,77 @@
       - Tarayıcının normal ayarında ``h1`` boyu ``1.5em``.
       - Eskisinde ``body`` 16px, ``h1`` 24px.
       - Yenisinde ``body`` 18px, ``h1`` 54px.
+
+
+.. slide:: Yazı tipi stili
+
+   .. container:: ref
+
+      ::
+
+        font-style: STİL;
+
+   - normal: ``normal``
+   - italik: ``italic``
+
+
+.. slide:: Yazı tipi stili
+   :data-views: (-250, 0, 0, 0.3) (450, 0, 0, 0.3)
+
+   .. code-block:: css
+
+      em {
+        font-style: normal;
+      }
+
+   .. container:: columns mt-8
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-yazi-stili-once.*
+            :alt: Kuraldan önce vurgular italik gösteriliyor.
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-yazi-stili-sonra.*
+            :alt: Kuraldan sonra vurgular normal gösteriliyor.
+
+   .. container:: substep task mt-12
+
+      - vurgunun düz metinden farkı kalmadı, değiştirelim
+
+
+.. slide:: Yazı tipi ağırlığı
+
+   .. container:: ref
+
+      ::
+
+        font-weight: AĞIRLIK;
+
+   - normal: ``normal``
+   - kalın: ``bold``
+   - veya: ``400``, ``700``
+
+
+.. slide:: Yazı tipi ağırlığı
+   :data-views: (-250, 0, 0, 0.3) (450, 0, 0, 0.3)
+
+   .. code-block:: css
+
+      em {
+        font-style: normal;
+        font-weight: bold;
+      }
+
+   .. container:: columns mt-8
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-yazi-stili-sonra.*
+            :alt: Kuraldan önce vurgular normal gösteriliyor.
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-yazi-agirligi-sonra.*
+            :alt: Kuraldan sonra vurgular kalın gösteriliyor.
