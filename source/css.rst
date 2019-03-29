@@ -426,7 +426,7 @@
 
 
 .. slide:: Arka plan rengi
-   :data-views: (0, 0, 0, 0.6)
+   :data-views: (0, 200, 0, 0.6)
 
    .. container:: ref
 
@@ -434,18 +434,18 @@
 
         background-color: RENK;
 
-   .. container:: mt-8 text-center
-
-      .. image:: images/stil-altlik-sonra.*
-         :alt: Altlıkta siyah arka plan, beyaz yazı, küçük boy, sağa dayalı.
-
-   .. container:: substep task mt-8
+   .. container:: task mt-8
 
       - altlıkta şunları ayarlayalım:
 
         - arka plan rengi, yazı rengi
         - yazı boyu
         - metin hizalaması
+
+   .. container:: substep mt-8 text-center
+
+      .. image:: images/stil-altlik-sonra.*
+         :alt: Altlıkta siyah arka plan, beyaz yazı, küçük boy, sağa dayalı.
 
 
 .. slide:: Satır aralığı
@@ -537,7 +537,7 @@
         margin-top: 4em;
       }
 
-   .. container:: columns mt-8
+   .. container:: columns mt-8 items-end
 
       .. container:: column w-1/2 text-center
 
@@ -571,7 +571,7 @@
         padding: 1em;
       }
 
-   .. container:: columns mt-8
+   .. container:: columns mt-8 items-end
 
       .. container:: column w-1/2 text-center
 
