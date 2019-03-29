@@ -344,3 +344,42 @@
    .. speaker-notes::
 
       - Altçizginin kötü görünümünden söz et (``g`` harflerini göster).
+
+
+.. slide:: Yazı rengi
+
+   .. container:: ref
+
+      ::
+
+        color: RENK_DEĞERİ;
+
+   - rengin ismi: ``white``, ``black``, ``red``, ...
+   - RGB değeri
+
+   .. speaker-notes::
+
+      - Renklerin isimle verilmesi tercih edilmiyor.
+
+
+.. slide:: Yazı rengi
+   :data-views: (-250, 0, 0, 0.3) (450, 0, 0, 0.3)
+
+   .. code-block:: css
+
+      em {
+        font-style: normal;
+        color: #C00000;
+      }
+
+   .. container:: columns mt-8
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-yazi-stili-sonra.*
+            :alt: Kuraldan önce vurgular siyah gösteriliyor.
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-yazi-rengi-sonra.*
+            :alt: Kuraldan sonra vurgular kırmızı gösteriliyor.

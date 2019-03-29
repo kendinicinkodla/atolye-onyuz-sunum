@@ -9,19 +9,6 @@
       - yerleştirme
 
 
-.. slide:: Metin rengi
-
-   - ayar ismi: ``color``
-   - RGB değer
-
-   .. code-block:: css
-
-      em {
-        font-style: normal;
-        color: #c00000;
-      }
-
-
 .. slide:: Arka plan rengi
 
    - ayar ismi: ``background-color``
