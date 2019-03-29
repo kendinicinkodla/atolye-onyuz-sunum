@@ -9,40 +9,6 @@
       - yerleştirme
 
 
-.. slide:: Alt-üst çizgileri
-
-   .. container:: ref
-
-      ::
-
-        text-decoration: ÇİZGİ;
-
-   - ``none``, ``underline``, ``overline``, ``line-through``
-
-   .. container:: columns
-
-      .. container:: column w-1/4
-
-         .. image:: font-style-before.*
-
-      .. container:: column
-
-         .. code-block:: css
-
-            em {
-              font-style: normal;
-              text-decoration: underline;
-            }
-
-      .. container:: column w-1/4
-
-         .. image:: text-decoration-after.*
-
-   .. speaker-notes::
-
-      - Altçizginin kötü görünümünden söz et (``g`` harflerini göster).
-
-
 .. slide:: Metin rengi
 
    - ayar ismi: ``color``

@@ -303,3 +303,44 @@
 
          .. image:: images/stil-yazi-agirligi-sonra.*
             :alt: Kuraldan sonra vurgular kalın gösteriliyor.
+
+
+.. slide:: Alt-üst çizgileri
+
+   .. container:: ref
+
+      ::
+
+        text-decoration: ÇİZGİ;
+
+   - yok: ``none``
+   - altına: ``underline``
+   - üstüne: ``overline``
+   - ortasına: ``line-through``
+
+
+.. slide:: Alt-üst çizgileri
+   :data-views: (-250, 0, 0, 0.3) (450, 0, 0, 0.3)
+
+   .. code-block:: css
+
+      em {
+        font-style: normal;
+        text-decoration: underline;
+      }
+
+   .. container:: columns mt-8
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-yazi-stili-sonra.*
+            :alt: Kuraldan önce vurgular normal gösteriliyor.
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-yazi-altcizgisi-sonra.*
+            :alt: Kuraldan sonra vurgular altı çizili gösteriliyor.
+
+   .. speaker-notes::
+
+      - Altçizginin kötü görünümünden söz et (``g`` harflerini göster).
