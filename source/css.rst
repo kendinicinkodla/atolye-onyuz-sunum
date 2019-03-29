@@ -151,3 +151,15 @@
       .. container:: column w-1/2 text-center
 
          .. image:: images/stil-yazi-tipi-sonra.*
+
+
+.. slide:: Çoklu elemanlar
+
+   - birden fazla elemana aynı stil uygulanabilir
+   - elemanları virgülle ayırarak
+
+   .. code-block:: css
+
+      h1, h2 {
+        font-family: 'Nunito', sans-serif;
+      }

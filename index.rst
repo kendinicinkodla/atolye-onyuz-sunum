@@ -9,20 +9,6 @@
       - yerleştirme
 
 
-.. slide:: Çoklu elemanlar
-
-   - birden fazla elemana aynı stil uygulanabilir
-   - elemanları virgülle ayırarak
-
-   .. container::
-
-      .. code-block:: css
-
-         h1, h2 {
-           font-family: 'Nunito', sans-serif;
-         }
-
-
 .. slide:: Yazı boyu
 
    .. container:: ref
