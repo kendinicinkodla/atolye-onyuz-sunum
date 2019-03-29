@@ -9,13 +9,6 @@
       - yerleştirme
 
 
-.. slide:: CSS
-
-   - *Cascading Style Sheets*
-
-   - düz metin
-
-
 .. slide:: Stil bağlantısı
 
    - HTML dosyasının baş kısmında: ``link``
