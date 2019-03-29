@@ -88,3 +88,66 @@
 
          .. image:: images/stil-hizalama-sonra.*
             :alt: Kuraldan sonra başlık hücreleri sola hizalı.
+
+.. slide:: Yazı tipi
+
+   .. container:: ref
+
+      ::
+
+        font-family: 'Seçenek 1', 'Seçenek 2', 'Seçenek 3';
+
+   - her seçenek bir yazı tipi "ailesi"
+   - sıradaki seçeneği bulamıyorsan sonrakine geç
+
+   - | son seçenek şunlardan biri olmalı:
+     | ``serif``, ``sans-serif``, ``monospace``
+
+.. slide:: Google Fonts
+
+   - serbestçe kullanılabilecek yazı tipleri
+
+   ..
+
+   - önce stil dosyasına alınmalı
+
+   .. rst-class:: small
+
+   .. code-block:: css
+
+      @import url('https://fonts.googleapis.com/css?family=Cabin:400,700|Nunito:400,700');
+
+   .. container:: substep task mt-12
+
+      - biri gövde, biri başlıklar için iki yazı tipi seçelim
+
+   .. speaker-notes::
+
+      - Seçerken ağırlıklar 400/700 olsun.
+      - Latin Extended seçmek gerekebilir.
+
+
+.. slide:: Varsayılan yazı tipi
+
+   - | ``body`` elemanına uygulanırsa
+     | bütün sayfa için geçerli olur
+
+
+.. slide:: Varsayılan yazı tipi
+   :data-views: (0, 0, 0, 0.5)
+
+   .. code-block:: css
+
+      body {
+        font-family: 'Cabin', sans-serif;
+      }
+
+   .. container:: columns mt-8
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-yazi-tipi-once.*
+
+      .. container:: column w-1/2 text-center
+
+         .. image:: images/stil-yazi-tipi-sonra.*
