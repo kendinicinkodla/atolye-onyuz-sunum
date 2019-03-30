@@ -326,8 +326,8 @@
 
       .. container:: column w-1/2 text-center
 
-         .. image:: images/stil-yazi-stili-sonra.*
-            :alt: Kuraldan önce vurgular normal gösteriliyor.
+         .. image:: images/stil-yazi-stili-once.*
+            :alt: Kuraldan önce vurgular italik gösteriliyor.
 
       .. container:: column w-1/2 text-center
 
@@ -363,8 +363,8 @@
 
       .. container:: column w-1/2 text-center
 
-         .. image:: images/stil-yazi-stili-sonra.*
-            :alt: Kuraldan önce vurgular normal gösteriliyor.
+         .. image:: images/stil-yazi-stili-once.*
+            :alt: Kuraldan önce vurgular italik gösteriliyor.
 
       .. container:: column w-1/2 text-center
 
@@ -416,8 +416,8 @@
 
       .. container:: column w-1/2 text-center
 
-         .. image:: images/stil-yazi-stili-sonra.*
-            :alt: Kuraldan önce vurgular siyah gösteriliyor.
+         .. image:: images/stil-yazi-stili-once.*
+            :alt: Kuraldan önce vurgular italik gösteriliyor.
 
       .. container:: column w-1/2 text-center
 
