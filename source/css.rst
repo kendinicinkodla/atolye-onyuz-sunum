@@ -562,7 +562,7 @@
 
 
 .. slide:: Dış boşluk
-   :data-views: (0, 0, 0, 0.6)
+   :data-views: (100, 0, 0, 0.6)
 
    .. code-block:: css
 
