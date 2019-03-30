@@ -92,7 +92,7 @@
       .. container:: column flex-unset mr-12
 
          .. image:: images/stil-hizalama-once.*
-            :alt: Kuraldan önce başlık hücreleri ortaya hizalı.
+            :alt: Normalde başlık hücreleri ortaya hizalı.
 
       .. container:: column flex-unset
 
@@ -169,12 +169,12 @@
       .. container:: column w-1/2 text-center
 
          .. image:: images/stil-yazi-tipi-once.*
-            :alt: Yazılar tarayıcının standart yazı tipiyle gösteriliyor.
+            :alt: Normalde yazılar tarayıcının standart yazı tipiyle gösteriliyor.
 
       .. container:: column w-1/2 text-center
 
          .. image:: images/stil-yazi-tipi-sonra.*
-            :alt: Yazılar bizim seçtiğimiz Cabin yazı tipiyle gösteriliyor.
+            :alt: Kuraldan sonra yazılar bizim seçtiğimiz Cabin yazı tipiyle gösteriliyor.
 
 
 .. slide:: Çoklu elemanlar
@@ -247,12 +247,12 @@
       .. container:: column text-center
 
          .. image:: images/stil-yazi-boyu-once.*
-            :alt: Yazılar tarayıcının standart yazı boylarıyla gösteriliyor.
+            :alt: Normalde yazılar tarayıcının standart yazı boylarıyla gösteriliyor.
 
       .. container:: column text-center
 
          .. image:: images/stil-yazi-boyu-sonra.*
-            :alt: Gövde yazı boyu ve başlığın bu boya oranı değişiyor.
+            :alt: Kuraldan sonra gövde yazı boyu ve başlığın bu boya oranı değişiyor.
 
    .. speaker-notes::
 
@@ -287,7 +287,7 @@
       .. container:: column w-1/2 text-center
 
          .. image:: images/stil-yazi-stili-once.*
-            :alt: Kuraldan önce vurgular italik gösteriliyor.
+            :alt: Normalde vurgular italik gösteriliyor.
 
       .. container:: column w-1/2 text-center
 
@@ -327,7 +327,7 @@
       .. container:: column w-1/2 text-center
 
          .. image:: images/stil-yazi-stili-once.*
-            :alt: Kuraldan önce vurgular italik gösteriliyor.
+            :alt: Normalde vurgular italik gösteriliyor.
 
       .. container:: column w-1/2 text-center
 
@@ -364,7 +364,7 @@
       .. container:: column w-1/2 text-center
 
          .. image:: images/stil-yazi-stili-once.*
-            :alt: Kuraldan önce vurgular italik gösteriliyor.
+            :alt: Normalde vurgular italik gösteriliyor.
 
       .. container:: column w-1/2 text-center
 
@@ -417,12 +417,12 @@
       .. container:: column w-1/2 text-center
 
          .. image:: images/stil-yazi-stili-once.*
-            :alt: Kuraldan önce vurgular italik gösteriliyor.
+            :alt: Normalde vurgular italik ce siyah gösteriliyor.
 
       .. container:: column w-1/2 text-center
 
          .. image:: images/stil-yazi-rengi-sonra.*
-            :alt: Kuraldan sonra vurgular kırmızı gösteriliyor.
+            :alt: Kuraldan sonra vurgular düz ve kırmızı gösteriliyor.
 
 
 .. slide:: Arka plan rengi
@@ -475,12 +475,12 @@
       .. container:: column w-1/2 text-center
 
          .. image:: images/stil-satir-araligi-once.*
-            :alt: Kuraldan önce satır aralıkları az.
+            :alt: Normalde satır aralığı az.
 
       .. container:: column w-1/2 text-center
 
          .. image:: images/stil-satir-araligi-sonra.*
-            :alt: Kuraldan sonra satır aralıkları artıyor.
+            :alt: Kuraldan sonra satır aralığı artıyor.
 
 
 .. slide:: İçindekiler
@@ -542,7 +542,7 @@
       .. container:: column w-1/2 text-center
 
          .. image:: images/stil-altlik-sonra.*
-            :alt: Kuraldan önce altlığın ana gövdeye uzaklığı az.
+            :alt: Normalde altlığın ana gövdeye uzaklığı az.
 
       .. container:: column w-1/2 text-center
 
@@ -576,7 +576,7 @@
       .. container:: column w-1/2 text-center
 
          .. image:: images/stil-bosluk-ust-sonra.*
-            :alt: Kuraldan önce altlıktaki metnin etrafında boşluk yok.
+            :alt: Normalde altlıktaki metnin etrafında boşluk yok.
 
       .. container:: column w-1/2 text-center
 
