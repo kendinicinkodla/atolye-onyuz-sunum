@@ -18,7 +18,7 @@
    - yazı stilleri
    - renkler
    - boşluklar
-   - boyutlar
+   - yerleştirme
 
 
 .. slide:: CSS
@@ -107,7 +107,7 @@
    - *yazı stilleri*
    - renkler
    - boşluklar
-   - boyutlar
+   - yerleştirme
 
 
 .. slide:: Yazı tipi
@@ -383,7 +383,7 @@
    - yazı stilleri
    - *renkler*
    - boşluklar
-   - boyutlar
+   - yerleştirme
 
 
 .. slide:: Yazı rengi
@@ -490,7 +490,7 @@
    - yazı stilleri
    - renkler
    - *boşluklar*
-   - boyutlar
+   - yerleştirme
 
 
 .. slide:: Boşluklar
@@ -658,7 +658,7 @@
    - yazı stilleri
    - renkler
    - boşluklar
-   - *boyutlar*
+   - *yerleştirme*
 
 
 .. slide:: Eleman boyutları
@@ -737,3 +737,16 @@
             img#poster {
               width: 100%;
             }
+
+
+.. slide:: Maksimum genişlik
+
+   .. container:: ref
+
+      ::
+
+        max-width: BOYUT;
+
+   .. container:: task mt-8
+
+      - logonun genişliği en fazla 200px olsun
