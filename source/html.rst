@@ -618,12 +618,10 @@
          .. code-block:: html
 
             <header>
-              <figure>
-                <img src="logo_siyah.png"
-                     width="434"
-                     height="88"
-                     alt="Doğa Kaşifleri logosu"/>
-              </figure>
+              <img src="logo_siyah.png"
+                   width="434"
+                   height="88"
+                   alt="Doğa Kaşifleri logosu"/>
             </header>
 
       .. container:: column
