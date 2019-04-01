@@ -381,11 +381,12 @@
 
    - resim: ``img``
    - adres niteliği: ``src``
-   - boy niteliği: ``width``
+   - genişlik ve yükseklik nitelikleri: ``width``, ``height``
    - yerine konacak metin niteliği: ``alt``
 
    .. speaker-notes::
 
+      - Genişlik ve yükseklik için dosyanın orijinal boyutları verilmeli.
       - ``alt`` niteliğinin öneminden söz et: görme özürlü kullanıcılar.
 
 
@@ -394,8 +395,9 @@
    .. code-block:: html
 
       <img src="karga.jpg"
-           width="640"
-           alt="Karga"/>
+           width="1280"
+           height="427"
+           alt="Bir parkta çimenlerin önüne konmuş bir karga."/>
 
    .. container:: w-2/3 m-auto mt-2
 
@@ -409,7 +411,7 @@
    .. speaker-notes::
 
       - Foto adresi sitedeki listeden kopyalanabilir.
-      - Küçük foto genişliği 192px.
+      - Küçük foto genişliği 128.
 
 
 .. slide:: Şekiller
@@ -429,7 +431,8 @@
 
       <figure>
         <img src="karga_1.jpg"
-             width="192"
+             width="128"
+             height="128"
              alt="Foto 1"/>
         <figcaption>Foto 1</figcaption>
       </figure>
@@ -493,8 +496,6 @@
       .. container:: column w-1/2
 
          .. code-block:: html
-
-            <h2>Künye</h2>
 
             <table>
               <tr>
@@ -619,7 +620,8 @@
             <header>
               <figure>
                 <img src="logo_siyah.png"
-                     width="200"
+                     width="434"
+                     height="88"
                      alt="Doğa Kaşifleri logosu"/>
               </figure>
             </header>
@@ -651,7 +653,6 @@
          .. code-block:: html
 
             <nav>
-              <a href="index.html"> ... logo ... </a>
               <a href="turler.html">Hayvan türleri</a>
               <a href="oyun.html">Biliyor musun?</a>
             </nav>
@@ -659,7 +660,7 @@
       .. container:: column
 
          .. image:: images/karga_menu.*
-            :alt: Navigasyona yalnızca linklerin yazılması yeterlidir.
+            :alt: Navigasyona yalnızca linklerin yazılması yeterli.
 
 
 .. slide:: Metin bölümleri
@@ -669,22 +670,20 @@
    .. code-block:: html
 
       <section>
-        <h2>Beslenme</h2>
+        <h2>Galeri</h2>
 
-        <p>Kargalar hemen hemen her şeyi yerler. Yetişkin bir karga
-          günde 300 gramdan fazla yiyecek tüketir. Onları tüketirken
-          bir yandan da yayılmalarını sağlayarak doğaya katkıda
-          bulunurlar.</p>
+        <figure>
+          ...
+        </figure>
+
+        <figure>
+          ...
+        </figure>
       </section>
-
-   .. container:: substep task
-
-      - diğer altbölümleri de ``section`` içine alalım
 
    .. speaker-notes::
 
-      - görünür bir etkisi yok
-      - diğer altbölümler: giriş, türler, künye, galeri
+      - Görünür bir etkisi yok.
 
 
 .. slide:: Kapanış
