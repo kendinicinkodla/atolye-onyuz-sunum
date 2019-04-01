@@ -750,3 +750,71 @@
    .. container:: task mt-8
 
       - logonun genişliği en fazla 200px olsun
+
+
+.. slide:: Çoklu eleman seçme
+
+   .. container:: task
+
+      - tablonun çift satırlarının arkaplan rengini değiştirelim
+
+   .. container:: substep
+
+      - birden fazla eleman nasıl seçeceğim?
+      - eleman niteliği: ``class``
+
+      ..
+
+      - seçerken ``.`` ile nitelik değeri
+      - eleman ismi verilmeyebilir
+
+
+.. slide:: Eleman sınıfı ayarı
+
+   .. container:: columns
+
+      .. container:: column mr-4
+
+         .. code-block:: html
+
+            <tr>
+              <th>Alem:</th>
+              <td>Hayvanlar</td>
+            </tr>
+            <tr class="cift">
+              <th>Şube:</th>
+              <td>Kordalılar</td>
+            </tr>
+            <tr>
+              <th>Sınıf:</th>
+              <td>Kuşlar</td>
+            </tr>
+            <tr class="cift">
+              <th>Takım:</th>
+              <td>Ötücü kuşlar</td>
+            </tr>
+
+      .. container:: column
+
+         .. code-block:: css
+
+            tr.cift {
+              background-color: #E0E0E0;
+            }
+
+   .. speaker-notes::
+
+      - Tablo görünümü düzeltilmek istenirse::
+
+           table {
+             border-collapse: collapse;
+           }
+
+           td, th {
+             padding: 0.5em;
+           }
+
+      - Tasarım üzerinden yerleştirmeyi tartış:
+
+        - Büyük resimde marjin yok, ana metinde var.
+        - Nasıl marjin verip hizalayacağım?
