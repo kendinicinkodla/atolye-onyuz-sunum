@@ -818,3 +818,4 @@
 
         - Büyük resimde marjin yok, ana metinde var.
         - Nasıl marjin verip hizalayacağım?
+        - Başlıkta arkaplan var, ana metinde yok.
