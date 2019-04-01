@@ -18,7 +18,7 @@
    - yazı stilleri
    - renkler
    - boşluklar
-   - yerleştirme
+   - boyutlar
 
 
 .. slide:: CSS
@@ -107,7 +107,7 @@
    - *yazı stilleri*
    - renkler
    - boşluklar
-   - yerleştirme
+   - boyutlar
 
 
 .. slide:: Yazı tipi
@@ -383,7 +383,7 @@
    - yazı stilleri
    - *renkler*
    - boşluklar
-   - yerleştirme
+   - boyutlar
 
 
 .. slide:: Yazı rengi
@@ -490,7 +490,7 @@
    - yazı stilleri
    - renkler
    - *boşluklar*
-   - yerleştirme
+   - boyutlar
 
 
 .. slide:: Boşluklar
@@ -649,3 +649,91 @@
 
       - Bu yansıdan sonra ara verilebilir. HTML dosyasında değişiklikler
         gerekecek.
+
+
+.. slide:: İçindekiler
+   :class: contents
+
+   - genel yapı
+   - yazı stilleri
+   - renkler
+   - boşluklar
+   - *boyutlar*
+
+
+.. slide:: Eleman boyutları
+
+   .. container:: ref
+
+      ::
+
+        width: BOYUT;
+        height: BOYUT;
+
+   - uzunluk ölçüsü
+   - bulunulan alana göre ``%``
+   - diğer boyuta göre ölçekle: ``auto``
+
+
+.. slide:: Eleman boyutları
+
+   .. container:: task
+
+      - büyük resim bulunduğu alanın tüm enini kaplasın
+
+   .. code-block:: css
+
+      img {
+        width: 100%;
+      }
+
+   .. container:: substep
+
+      - bütün resimler %100 oluyor
+      - sadece o resmi nasıl seçeceğim?
+
+
+.. slide:: Tek eleman seçme
+
+   .. container:: columns
+
+      .. container:: column mr-8
+
+         .. rst-class:: text-center border-b-2 px-2
+
+         HTML
+
+         - eleman niteliği: ``id``
+         - değer sayfada tek
+
+      .. container:: column m-auto
+
+         .. rst-class:: text-center border-b-2 px-2
+
+         CSS
+
+         - ``eleman#değer``
+         - ``#değer``
+
+
+.. slide:: Tek eleman ayarı
+
+   .. container:: columns
+
+      .. container:: column mr-4
+
+         .. code-block:: html
+
+            <img src="karga.jpg"
+                 id="poster"
+                 width="1280"
+                 height="427"
+                 alt="Bir parkta ..."/>
+
+      .. container:: column
+
+         .. code-block:: css
+
+            img#poster {
+              width: 100%;
+            }
