@@ -273,6 +273,10 @@
 
       - ömür ve ilginç bilgi paragraflarını ekleyelim
 
+   .. speaker-notes::
+
+      - Görüntülemeye bir etkisi yok.
+
 
 .. slide:: Baş
 
@@ -452,15 +456,15 @@
 
 
 .. slide:: Listeler
-   :data-views: (-100, 100, 0, 0.5) (300, 0, 0, 0.5)
-
-   - sırasız liste: ``ul``
-   - sıralı liste: ``ol``
-   - liste maddesi: ``li``
+   :data-views: (-150, 100, 0, 0.5) (350, 0, 0, 0.5)
 
    .. container:: columns
 
       .. container:: column w-1/2
+
+         - sırasız liste: ``ul``
+         - sıralı liste: ``ol``
+         - liste maddesi: ``li``
 
          .. code-block:: html
 
@@ -472,7 +476,7 @@
               <li>Küçük karga</li>
             </ul>
 
-      .. container:: column
+      .. container:: column self-end
 
          .. image:: images/karga_liste.*
             :alt: Sırasız listeler maddeler halinde gösterilir.
@@ -515,7 +519,7 @@
               </tr>
             </table>
 
-      .. container:: column w-1/2
+      .. container:: column w-1/2 self-center
 
          .. image:: images/karga_tablo.*
             :alt: Sırasız listeler maddeler halinde gösterilir.
@@ -584,24 +588,19 @@
 
 
 .. slide:: Altlık
-   :data-views: (250, 0, 0, 0.5)
 
    - altlığa ana içerikle aynı türden elemanlar yazılır
 
-   .. container:: columns mt-12
+   .. code-block:: html
 
-      .. container:: column w-2/3
+      <footer>
+        <p>(C) 2019, Kendin için Kodla</p>
+      </footer>
 
-         .. code-block:: html
+   .. container:: text-center mt-8
 
-            <footer>
-              <p>(C) 2019, Kendin için Kodla</p>
-            </footer>
-
-      .. container:: column
-
-         .. image:: images/karga_altlik.*
-            :alt: Altlık ana içerikle aynı şekilde görüntülenir.
+      .. image:: images/karga_altlik.*
+         :alt: Altlık ana içerikle aynı şekilde görüntülenir.
 
    .. speaker-notes::
 
@@ -611,13 +610,12 @@
 
 
 .. slide:: Üstlük
-   :data-views: (200, 0, 0, 0.5)
-
-   - üstlük de aynı şekilde
 
    .. container:: columns mt-12 mr-8
 
-      .. container:: column w-2/3
+      .. container:: column
+
+         - üstlük de aynı şekilde
 
          .. code-block:: html
 
@@ -628,7 +626,7 @@
                    alt="Doğa Kaşifleri logosu"/>
             </header>
 
-      .. container:: column
+      .. container:: column w-1/4
 
          .. image:: images/karga_ustluk.*
             :alt: Üstlük de ana içerikle aynı şekilde görüntülenir.
@@ -685,7 +683,7 @@
 
    .. speaker-notes::
 
-      - Görünür bir etkisi yok.
+      - Görüntülemeye bir etkisi yok.
 
 
 .. slide:: Kapanış
