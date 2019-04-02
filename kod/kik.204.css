@@ -38,6 +38,7 @@ figure {
 
 header {
   padding: 0 0.5em 0 0.5em;
+  margin-bottom: 0.5em;
 }
 
 header nav {
@@ -46,6 +47,9 @@ header nav {
 
 header a {
   text-decoration: none;
+}
+
+header nav a {
   margin-left: 1em;
 }
 

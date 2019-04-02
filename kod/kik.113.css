@@ -38,5 +38,8 @@ figure {
 
 header a {
   text-decoration: none;
+}
+
+header nav a {
   margin-left: 1em;
 }
