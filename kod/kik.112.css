@@ -32,7 +32,6 @@ footer {
   padding: 1em;
 }
 
-header a {
-  text-decoration: none;
-  margin-right: 1em;
+figure {
+  margin: 0;
 }

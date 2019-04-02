@@ -32,12 +32,8 @@ footer {
   padding: 1em;
 }
 
-header {
-  padding: 0 0.5em 0 0.5em;
-}
-
-header nav {
-  text-align: right;
+figure {
+  margin: 0;
 }
 
 header a {
