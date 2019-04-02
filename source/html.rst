@@ -689,6 +689,8 @@
 
 .. slide:: Kapanış
    :noheading:
-   :class: title
+   :class: contents
 
-   birinci oturumun sonu
+   HTML sunumunun sonu
+
+   `CSS sunumu <css.html>`_

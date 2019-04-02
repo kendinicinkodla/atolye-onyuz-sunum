@@ -47,3 +47,12 @@
       .. container:: column flex flex-col items-center
 
          *CSS*
+
+
+.. slide:: Kapanış
+   :noheading:
+   :class: contents
+
+   giriş sunumunun sonu
+
+   `HTML sunumu <html.html>`_
