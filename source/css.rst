@@ -897,7 +897,7 @@
          .. code-block:: css
 
             .icerik {
-              max-width: 30em;
+              max-width: 50em;
               margin: 0 auto;
             }
 
@@ -906,6 +906,30 @@
          .. image:: images/stil-div.*
             :alt: Kuraldan sonra içerik kısmı daha dar ve ortaya hizalı.
 
-      .. speaker-notes::
 
-         - Katılımcılara ``50em`` uygulamalarını öner.
+.. slide:: Kod açıklamaları
+
+   - hangi elemanı kapattığını takip etmek zorlaşıyor
+
+   ..
+
+   - açıklama yazmak okurken yardımcı olur:
+
+   .. container:: columns
+
+      .. container:: column
+
+         - ``<!--`` ile başla 
+         - ``-->`` ile bitir
+
+      .. container:: column
+
+         .. code-block:: html
+
+            <div class="icerik">
+              <p>İri yapılı, ...</p>
+              ...
+              <section>
+                ...
+              </section>
+            </div> <!-- icerik -->
