@@ -166,12 +166,12 @@
 
    .. container:: columns mt-8
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
          .. image:: images/stil-yazi-tipi-once.*
             :alt: Normalde yazılar tarayıcının standart yazı tipiyle gösteriliyor.
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
          .. image:: images/stil-yazi-tipi-sonra.*
             :alt: Kuraldan sonra yazılar bizim seçtiğimiz Cabin yazı tipiyle gösteriliyor.
@@ -221,11 +221,11 @@
 
 
 .. slide:: Yazı boyu
-   :data-views: (0, 100, 0, 0.65)
+   :data-views: (250, 0, 0, 0.5)
 
    .. container:: columns
 
-      .. container:: column w-1/2
+      .. container:: column mr-8
 
          .. code-block:: css
 
@@ -234,22 +234,16 @@
               font-size: 1.125rem;
             }
 
-      .. container:: column w-1/2
-
-         .. code-block:: css
-
             h1 {
               font-size: 3em;
             }
 
-   .. container:: columns mt-8
-
-      .. container:: column text-center
+      .. container:: column
 
          .. image:: images/stil-yazi-boyu-once.*
             :alt: Normalde yazılar tarayıcının standart yazı boylarıyla gösteriliyor.
 
-      .. container:: column text-center
+         .. rst-class:: mt-12
 
          .. image:: images/stil-yazi-boyu-sonra.*
             :alt: Kuraldan sonra gövde yazı boyu ve başlığın bu boya oranı değişiyor.
@@ -284,19 +278,19 @@
 
    .. container:: columns mt-8
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
          .. image:: images/stil-yazi-stili-once.*
             :alt: Normalde vurgular italik gösteriliyor.
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
          .. image:: images/stil-yazi-stili-sonra.*
             :alt: Kuraldan sonra vurgular normal gösteriliyor.
 
-   .. container:: substep task mt-12
+   .. speaker-notes::
 
-      - vurgunun düz metinden farkı kalmadı, değiştirelim
+      - Vurgunun düz metinden farkı kalmıyor, değiştirmek gerek.
 
 
 .. slide:: Yazı tipi ağırlığı
@@ -313,7 +307,7 @@
 
 
 .. slide:: Yazı tipi ağırlığı
-   :data-views: (-250, 0, 0, 0.3) (450, 0, 0, 0.3)
+   :data-views: (-250, 100, 0, 0.3) (450, 0, 0, 0.3)
 
    .. code-block:: css
 
@@ -324,12 +318,12 @@
 
    .. container:: columns mt-8
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
          .. image:: images/stil-yazi-stili-once.*
             :alt: Normalde vurgular italik gösteriliyor.
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
          .. image:: images/stil-yazi-agirligi-sonra.*
             :alt: Kuraldan sonra vurgular kalın gösteriliyor.
@@ -350,7 +344,7 @@
 
 
 .. slide:: Alt-üst çizgileri
-   :data-views: (-250, 0, 0, 0.3) (450, 0, 0, 0.3)
+   :data-views: (-250, 100, 0, 0.3) (450, 0, 0, 0.3)
 
    .. code-block:: css
 
@@ -361,12 +355,12 @@
 
    .. container:: columns mt-8
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
          .. image:: images/stil-yazi-stili-once.*
             :alt: Normalde vurgular italik gösteriliyor.
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
          .. image:: images/stil-yazi-altcizgisi-sonra.*
             :alt: Kuraldan sonra vurgular altı çizili gösteriliyor.
@@ -403,7 +397,7 @@
 
 
 .. slide:: Yazı rengi
-   :data-views: (-250, 0, 0, 0.3) (450, 0, 0, 0.3)
+   :data-views: (-250, 100, 0, 0.3) (450, 0, 0, 0.3)
 
    .. code-block:: css
 
@@ -414,12 +408,12 @@
 
    .. container:: columns mt-8
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
          .. image:: images/stil-yazi-stili-once.*
             :alt: Normalde vurgular italik ce siyah gösteriliyor.
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
          .. image:: images/stil-yazi-rengi-sonra.*
             :alt: Kuraldan sonra vurgular düz ve kırmızı gösteriliyor.
@@ -444,7 +438,7 @@
 
    .. container:: substep mt-8 text-center
 
-      .. image:: images/stil-altlik-sonra.*
+      .. image:: images/stil-arkaplan-rengi-sonra.*
          :alt: Altlıkta siyah arka plan, beyaz yazı, küçük boy, sağa dayalı.
 
 
@@ -472,12 +466,12 @@
 
    .. container:: columns mt-8
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
          .. image:: images/stil-satir-araligi-once.*
             :alt: Normalde satır aralığı az.
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
          .. image:: images/stil-satir-araligi-sonra.*
             :alt: Kuraldan sonra satır aralığı artıyor.
@@ -529,7 +523,7 @@
 
 
 .. slide:: Dış boşluklar
-   :data-views: (0, 0, 0, 0.6)
+   :data-views: (-100, 0, 0, 0.6)
 
    .. code-block:: css
 
@@ -539,12 +533,12 @@
 
    .. container:: columns mt-8 items-end
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
-         .. image:: images/stil-altlik-sonra.*
+         .. image:: images/stil-bosluk-ust-once.*
             :alt: Normalde altlığın ana gövdeye uzaklığı az.
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
          .. image:: images/stil-bosluk-ust-sonra.*
             :alt: Kuraldan sonra altlığın ana gövdeye uzaklığı artıyor.
@@ -561,7 +555,7 @@
    - dış boşluklarla aynı yazım
 
 
-.. slide:: Dış boşluk
+.. slide:: İç boşluklar
    :data-views: (100, 0, 0, 0.6)
 
    .. code-block:: css
@@ -571,14 +565,14 @@
         padding: 1em;
       }
 
-   .. container:: columns mt-8 items-end
+   .. container:: columns mt-8
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
          .. image:: images/stil-bosluk-ust-sonra.*
             :alt: Normalde altlıktaki metnin etrafında boşluk yok.
 
-      .. container:: column w-1/2 text-center
+      .. container:: column
 
          .. image:: images/stil-bosluk-ic-sonra.*
             :alt: Kuraldan sonra altlıktaki metnin dört yanında boşluk var.
@@ -610,11 +604,11 @@
 
 
 .. slide:: İçiçe eleman seçimi
-   :data-views: (200, -100, 0, 0.5) (0, 300, 0, 0.5)
+   :data-views: (100, -100, 0, 0.5) (0, 300, 0, 0.5)
 
    .. container:: columns
 
-      .. container:: column
+      .. container:: column mr-8
 
          .. code-block:: css
 
@@ -623,9 +617,9 @@
               margin-right: 1em;
             }
 
-      .. container:: column w-1/2 text-center
+      .. container:: column w-1/3
 
-         .. image:: images/stil-ustluk-baglanti-sonra.*
+         .. image:: images/stil-icice.*
             :alt: Kuraldan sonra sadece üstlükteki bağlantıların altı çizili değil.
 
 
@@ -697,16 +691,16 @@
 
    .. container:: columns
 
-      .. container:: column mr-8
+      .. container:: column flex flex-col items-center justify-center
 
-         .. rst-class:: text-center border-b-2 px-2
+         .. rst-class:: border-b-2 border-grey px-4 mb-8
 
          HTML
 
          - eleman niteliği: ``id``
          - değer sayfada tek
 
-      .. container:: column m-auto
+      .. container:: column flex flex-col items-center justify-center
 
          .. rst-class:: text-center border-b-2 px-2
 
