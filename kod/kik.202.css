@@ -50,6 +50,11 @@ img#poster {
   height: auto;
 }
 
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 #logo {
   max-width: 360px;
   height: auto;
