@@ -505,21 +505,12 @@
 
       ::
 
-        margin: UZAKLIK;
+        margin-YÖN: UZAKLIK;
 
-   - soldan: ``margin-left``
-   - sağdan: ``margin-right``
-   - üstten: ``margin-top``
-   - alttan: ``margin-bottom``
-
-   ..
-
-   - yön belirtilmezse: bütün yönlerden aynı uzaklık
-   - veya: ``üst sağ alt sol``
-
-   .. speaker-notes::
-
-      - Yönlerin verilişi saat yönünde.
+   - sol: ``margin-left``
+   - sağ: ``margin-right``
+   - üst: ``margin-top``
+   - alt: ``margin-bottom``
 
 
 .. slide:: Dış boşluklar
@@ -542,6 +533,29 @@
 
          .. image:: images/stil-bosluk-ust-sonra.*
             :alt: Kuraldan sonra altlığın ana gövdeye uzaklığı artıyor.
+
+
+.. slide:: Dış boşluklar
+
+   - yön belirtilmezse: bütün yönlerden aynı uzaklık
+
+   .. code-block:: css
+
+      figure {
+        margin: 0;
+      }
+
+   .. container:: substep mt-4
+
+      - 4 yön birden: ``üst sağ alt sol`` sırasıyla
+
+      ..
+
+      - ``auto`` niteliği kullanılırsa iki yandan aynı boşluk
+
+   .. speaker-notes::
+
+      - Yönlerin verilişi saat yönünde.
 
 
 .. slide:: İç boşluklar
@@ -569,7 +583,7 @@
 
       .. container:: column
 
-         .. image:: images/stil-bosluk-ust-sonra.*
+         .. image:: images/stil-bosluk-ic-once.*
             :alt: Normalde altlıktaki metnin etrafında boşluk yok.
 
       .. container:: column
@@ -604,7 +618,7 @@
 
 
 .. slide:: İçiçe eleman seçimi
-   :data-views: (100, -100, 0, 0.5) (0, 300, 0, 0.5)
+   :data-views: (150, -100, 0, 0.5) (0, 300, 0, 0.5)
 
    .. container:: columns
 
@@ -614,7 +628,7 @@
 
             header a {
               text-decoration: none;
-              margin-right: 1em;
+              margin-left: 1em;
             }
 
       .. container:: column w-1/3
@@ -750,8 +764,6 @@
       ::
 
         max-width: BOYUT;
-
-   - ``margin: auto`` ile birlikte kullanılarak ortaya hizalanabilir
 
    .. container:: task mt-8
 
