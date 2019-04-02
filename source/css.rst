@@ -732,6 +732,11 @@
               height: auto;
             }
 
+            figure {
+              margin-left: 0;
+              margin-right: 0;
+            }
+
       .. container:: column
 
          .. image:: images/stil-id.*
