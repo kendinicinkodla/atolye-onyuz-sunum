@@ -746,6 +746,8 @@
 
         max-width: BOYUT;
 
+   - ``margin: auto`` ile birlikte kullanılarak ortaya hizalanabilir
+
    .. container:: task mt-8
 
       - logonun genişliği en fazla 360px olsun
@@ -842,5 +844,38 @@
       - Tasarım üzerinden yerleştirmeyi tartış:
 
         - Büyük resimde marjin yok, ana metinde var.
-        - Nasıl marjin verip hizalayacağım?
         - Başlıkta arkaplan var, ana metinde yok.
+
+
+.. slide:: Eleman gruplama
+
+   .. container:: task
+
+      - içerik kısmına yanlardan boşluk bırakalım
+
+    - kuralı hangi elemana uygulayacağız?
+
+   .. container:: substep
+
+      - gruplama elemanı: ``div``
+      - çoğu zaman ``class`` niteliğiyle kullanılır
+
+
+.. slide:: Eleman gruplama
+
+   .. code-block:: html
+
+      <div class="icerik">
+        <p>İri yapılı, ...</p>
+        ...
+        <table>
+          ...
+        </table>
+      </div>
+
+   .. code-block:: css
+
+      .icerik {
+        max-width: 30em;
+        margin: 0 auto;
+      }

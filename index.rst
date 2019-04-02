@@ -1,44 +1,5 @@
 
 
-.. slide:: Eleman gruplama
-
-   - gruplama elemanı: ``div``
-   - çoğu zaman ``class`` niteliğiyle kullanılır
-
-
-.. slide:: Eleman gruplama
-
-   .. code-block:: html
-
-      <div class="bilgi">
-        <table>
-          ...
-        </table>
-        <section>
-          <p>İri yapılı, ...</p>
-        </section>
-        <section>
-          <h2>Beslenme</h2>
-          ...
-        </section>
-        <section><h2>Türler</h2>...</section>
-        <section><h2>Galeri</h2>...</section>
-      </div>
-
-
-.. slide:: Maksimum genişlik
-
-   - ayar ismi: ``max-width``
-   - ``margin`` için ``auto`` değeri ortaya hizalar
-
-   .. code-block:: css
-
-      .bilgi {
-        max-width: 50em;
-        margin: 0 auto;
-      }
-
-
 .. slide:: Paragraf içi grup
 
    - gruplama elemanı: ``span``
