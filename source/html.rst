@@ -12,12 +12,13 @@
 
 
 .. slide:: İçindekiler
+   :id: genel-yapi
    :class: contents
 
    - *genel yapı*
-   - sayfa şablonu
-   - içerik elemanları
-   - gövde şablonu
+   - `sayfa şablonu <#sayfa-sablonu>`_
+   - `içerik elemanları <#icerik-elemanlari>`_
+   - `gövde şablonu <#govde-sablonu>`_
 
 
 .. slide:: HTML
@@ -212,12 +213,13 @@
 
 
 .. slide:: İçindekiler
+   :id: sayfa-sablonu
    :class: contents
 
-   - genel yapı
+   - `genel yapı <#genel-yapi>`_
    - *sayfa şablonu*
-   - içerik elemanları
-   - gövde şablonu
+   - `içerik elemanları <#icerik-elemanlari>`_
+   - `gövde şablonu <#govde-sablonu>`_
 
 
 .. slide:: Sayfa elemanları
@@ -330,12 +332,13 @@
 
 
 .. slide:: İçindekiler
+   :id: icerik-elemanlari
    :class: contents
 
-   - genel yapı
-   - sayfa şablonu
+   - `genel yapı <#genel-yapi>`_
+   - `sayfa şablonu <#sayfa-sablonu>`_
    - *içerik elemanları*
-   - gövde şablonu
+   - `gövde şablonu <#govde-sablonu>`_
 
 
 .. slide:: Altbaşlıklar
@@ -523,11 +526,12 @@
 
 
 .. slide:: İçindekiler
+   :id: govde-sablonu
    :class: contents
 
-   - genel yapı
-   - sayfa şablonu
-   - içerik elemanları
+   - `genel yapı <#genel-yapi>`_
+   - `sayfa şablonu <#sayfa-sablonu>`_
+   - `içerik elemanları <#icerik-elemanlari>`_
    - *gövde şablonu*
 
 

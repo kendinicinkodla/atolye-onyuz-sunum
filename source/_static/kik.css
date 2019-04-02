@@ -29,6 +29,14 @@ section.contents {
   color: #FFFFFF;
 }
 
+section.contents a {
+  color: #FFFFFF;
+}
+
+section.contents a:hover {
+  color: #000000;
+}
+
 
 section.title h2 {
   margin-bottom: 0;
