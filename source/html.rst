@@ -50,7 +50,7 @@
 
    .. container:: columns
 
-      .. container:: column w-1/2
+      .. container:: column
 
          .. code-block:: html
 
@@ -64,7 +64,7 @@
             olanlarına "karakarga" veya
             "kuzgun" denir.
 
-      .. container:: column w-1/2
+      .. container:: column
 
          .. image:: images/karga_bosluklar.*
             :alt: Boşlukların etkisi olmadığından yazı tek blok halinde.
@@ -90,7 +90,7 @@
 
       <etiket>işaretlenen bölge</etiket>
 
-   ..
+   .. rst-class:: mt-8
 
    - her etiket çifti bir *eleman* işaretliyor
 
@@ -103,7 +103,7 @@
 
    .. container:: columns
 
-      .. container:: column w-1/2
+      .. container:: column
 
          .. code-block:: html
 
@@ -117,7 +117,7 @@
               olanlarına "karakarga" veya
               "kuzgun" denir.</p>
 
-      .. container:: column w-1/2
+      .. container:: column
 
          .. image:: images/karga_etiketler.*
             :alt: Paragraf ve başlık elemanlarının kullanımı.
@@ -128,6 +128,7 @@
 
 
 .. slide:: İçiçe elemanlar
+   :data-views: (-100, 0, 0, 0.6) (350, 50, 0, 0.6)
 
    - bir elemanın içine başka bir eleman konabilir
    - sonra açılan eleman önce kapanmalı
@@ -159,14 +160,14 @@
 
 
 .. slide:: Vurgu
-   :data-views: (-150, 200, 0, 0.5) (300, -100, 0, 0.25)
+   :data-views: (-150, 220, 0, 0.5) (370, -60, 0, 0.35)
 
    - vurgu: ``em``
    - normalde italik gösterilir
 
    .. container:: columns
 
-      .. container:: column w-1/2
+      .. container:: column mr-8
 
          .. code-block:: html
 
@@ -180,7 +181,7 @@
               olanlarına <em>karakarga</em>
               veya <em>kuzgun</em> denir.</p>
 
-      .. container:: column w-1/2 ml-8
+      .. container:: column
 
          .. image:: images/karga_vurgu.*
             :alt: Vurgu elemanının italik gösterilimi.
@@ -300,7 +301,7 @@
 
       .. container:: columns mt-8
 
-         .. container:: column w-1/2
+         .. container:: column mr-8
 
             .. code-block:: html
 
@@ -308,7 +309,7 @@
                  <meta charset="utf-8"/>
                </head>
 
-         .. container:: column w-1/2
+         .. container:: column
 
             .. image:: images/karga_charset.*
                :alt: Harf tablosu belirtilince Türkçe harfler doğru çıkıyor.
@@ -406,7 +407,7 @@
            height="427"
            alt="Bir parkta çimenlerin önüne konmuş bir karga."/>
 
-   .. container:: w-2/3 m-auto mt-2
+   .. container:: text-center mt-2
 
       .. image:: images/karga_foto.*
          :alt: Foto belirtilen boya ölçekli olarak yerleştirilir.
@@ -460,7 +461,7 @@
 
    .. container:: columns
 
-      .. container:: column w-1/2
+      .. container:: column mr-8
 
          - sırasız liste: ``ul``
          - sıralı liste: ``ol``
@@ -496,11 +497,11 @@
 
 
 .. slide:: Tablolar
-   :data-views: (-100, 0, 0, 0.5) (250, -100, 0, 0.5)
+   :data-views: (-110, 0, 0, 0.5)
 
    .. container:: columns
 
-      .. container:: column w-1/2
+      .. container:: column mr-8
 
          .. code-block:: html
 
@@ -519,7 +520,7 @@
               </tr>
             </table>
 
-      .. container:: column w-1/2 self-center
+      .. container:: column self-center
 
          .. image:: images/karga_tablo.*
             :alt: Sırasız listeler maddeler halinde gösterilir.
@@ -611,9 +612,9 @@
 
 .. slide:: Üstlük
 
-   .. container:: columns mt-12 mr-8
+   .. container:: columns mt-12
 
-      .. container:: column
+      .. container:: column mr-8
 
          - üstlük de aynı şekilde
 
@@ -626,14 +627,14 @@
                    alt="Doğa Kaşifleri logosu"/>
             </header>
 
-      .. container:: column w-1/4
+         .. container:: substep task
+
+            - logoyu ana sayfaya bağlantı haline getirelim
+
+      .. container:: column w-1/2
 
          .. image:: images/karga_ustluk.*
             :alt: Üstlük de ana içerikle aynı şekilde görüntülenir.
-
-   .. container:: substep task
-
-      - logoyu ana sayfaya bağlantı haline getirelim
 
    .. speaker-notes::
 
@@ -646,9 +647,9 @@
 
    - navigasyon menüsü: ``nav``
 
-   .. container:: columns mt-12 mr-4
+   .. container:: columns mt-12
 
-      .. container:: column w-2/3
+      .. container:: column mr-8
 
          .. code-block:: html
 
