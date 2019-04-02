@@ -301,7 +301,7 @@
 
       .. container:: columns mt-8
 
-         .. container:: column mr-8
+         .. container:: column mr-8 self-center
 
             .. code-block:: html
 
@@ -309,7 +309,7 @@
                  <meta charset="utf-8"/>
                </head>
 
-         .. container:: column
+         .. container:: column self-center
 
             .. image:: images/karga_charset.*
                :alt: Harf tablosu belirtilince Türkçe harfler doğru çıkıyor.
@@ -407,7 +407,7 @@
            height="427"
            alt="Bir parkta çimenlerin önüne konmuş bir karga."/>
 
-   .. container:: text-center mt-2
+   .. container:: text-center mt-4
 
       .. image:: images/karga_foto.*
          :alt: Foto belirtilen boya ölçekli olarak yerleştirilir.

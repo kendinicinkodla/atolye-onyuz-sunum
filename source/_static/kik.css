@@ -70,9 +70,9 @@ section.contents em {
 section .task {
   background-color: #EFEFEF;
   font-size: 0.8em;
-  margin-left: 5em;
+  margin-left: 4em;
   margin-bottom: 1em;
-  padding: 0.5em 1em 0.1em 1em;
+  padding: 0.5em;
   border-radius: 10px;
 }
 
