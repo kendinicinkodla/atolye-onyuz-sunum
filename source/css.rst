@@ -772,7 +772,7 @@
 
    .. container:: task
 
-      - tablonun çift satırlarının arkaplan rengini değiştirelim
+      - tablonun çift satırlarının arka plan rengini değiştirelim
 
    .. container:: substep
 
@@ -839,10 +839,10 @@
          .. container:: flex justify-around mt-8
 
             .. image:: images/stil-sinif-once.*
-               :alt: Normalde hücre arkaplanları beyaz.
+               :alt: Normalde hücre arka planları beyaz.
 
             .. image:: images/stil-sinif-sonra.*
-               :alt: Kuraldan sonra çift numaralı hücrelerin arkaplanları gri.
+               :alt: Kuraldan sonra çift numaralı hücrelerin arka planları gri.
 
    .. speaker-notes::
 
@@ -856,24 +856,25 @@
              padding: 0.5em;
            }
 
-      - Tasarım üzerinden yerleştirmeyi tartış:
 
-        - Büyük resimde marjin yok, ana metinde var.
-        - Başlıkta arkaplan var, ana metinde yok.
-
-
-.. slide:: Eleman gruplama
+.. slide:: Tasarım düzenlemeleri
 
    .. container:: task
 
       - içerik kısmına yanlardan boşluk bırakalım
 
-    - kuralı hangi elemana uygulayacağız?
+      ..
 
-   .. container:: substep
+      - büyük resim kenarlara dayalı
+      - başlığın arka plan rengi var
 
-      - gruplama elemanı: ``div``
-      - çoğu zaman ``class`` niteliğiyle kullanılır
+   - kuralı hangi elemana uygulayacağız?
+
+
+.. slide:: Eleman gruplama
+
+   - gruplama elemanı: ``div``
+   - çoğu zaman ``class`` niteliğiyle kullanılır
 
 
 .. slide:: Eleman gruplama
@@ -888,9 +889,9 @@
             <div class="icerik">
               <p>İri yapılı, ...</p>
               ...
-              <table>
+              <section>
                 ...
-              </table>
+              </section>
             </div>
 
          .. code-block:: css
@@ -904,3 +905,7 @@
 
          .. image:: images/stil-div.*
             :alt: Kuraldan sonra içerik kısmı daha dar ve ortaya hizalı.
+
+      .. speaker-notes::
+
+         - Katılımcılara ``50em`` uygulamalarını öner.
