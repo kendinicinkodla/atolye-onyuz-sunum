@@ -867,20 +867,30 @@
 
 
 .. slide:: Eleman gruplama
+   :data-views: (200, 200, 0, 0.5)
 
-   .. code-block:: html
+   .. container:: columns
 
-      <div class="icerik">
-        <p>İri yapılı, ...</p>
-        ...
-        <table>
-          ...
-        </table>
-      </div>
+      .. container:: column flex flex-col items-start mr-12
 
-   .. code-block:: css
+         .. code-block:: html
 
-      .icerik {
-        max-width: 30em;
-        margin: 0 auto;
-      }
+            <div class="icerik">
+              <p>İri yapılı, ...</p>
+              ...
+              <table>
+                ...
+              </table>
+            </div>
+
+         .. code-block:: css
+
+            .icerik {
+              max-width: 30em;
+              margin: 0 auto;
+            }
+
+      .. container:: column
+
+         .. image:: images/stil-div.*
+            :alt: Kuraldan sonra içerik kısmı daha dar ve ortaya hizalı.
