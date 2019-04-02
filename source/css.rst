@@ -679,6 +679,7 @@
 
       img {
         width: 100%;
+        height: auto;
       }
 
    .. container:: substep
@@ -687,7 +688,7 @@
       - sadece o resmi nasıl seçeceğim?
 
 
-.. slide:: Tek eleman seçme
+.. slide:: Tek eleman ayarı
 
    .. container:: columns
 
@@ -697,8 +698,8 @@
 
          HTML
 
-         - eleman niteliği: ``id``
-         - değer sayfada tek
+         - kimlik niteliği: ``id``
+         - değeri sayfada tek olmalı
 
       .. container:: column flex flex-col items-center justify-center
 
@@ -706,15 +707,15 @@
 
          CSS
 
-         - ``eleman#değer``
-         - ``#değer``
+         - ``eleman#kimlik``
+         - veya: ``#kimlik``
 
 
 .. slide:: Tek eleman ayarı
 
    .. container:: columns
 
-      .. container:: column mr-4
+      .. container:: column flex flex-col items-start mr-8
 
          .. code-block:: html
 
@@ -724,13 +725,17 @@
                  height="427"
                  alt="Bir parkta ..."/>
 
-      .. container:: column
-
          .. code-block:: css
 
             img#poster {
               width: 100%;
+              height: auto;
             }
+
+      .. container:: column
+
+         .. image:: images/stil-id.*
+            :alt: Kuraldan sonra resmin genişliği sayfayla aynı.
 
 
 .. slide:: Maksimum genişlik
@@ -743,7 +748,7 @@
 
    .. container:: task mt-8
 
-      - logonun genişliği en fazla 200px olsun
+      - logonun genişliği en fazla 360px olsun
 
 
 .. slide:: Çoklu eleman seçme
@@ -755,15 +760,33 @@
    .. container:: substep
 
       - birden fazla eleman nasıl seçeceğim?
-      - eleman niteliği: ``class``
-
-      ..
-
-      - seçerken ``.`` ile nitelik değeri
-      - eleman ismi verilmeyebilir
 
 
 .. slide:: Eleman sınıfı ayarı
+
+   .. container:: columns
+
+      .. container:: column flex flex-col items-center justify-center
+
+         .. rst-class:: border-b-2 border-grey px-4 mb-8
+
+         HTML
+
+         - sınıf niteliği: ``class``
+         - bir çok elemanda olabilir
+
+      .. container:: column flex flex-col items-center justify-center
+
+         .. rst-class:: text-center border-b-2 px-2
+
+         CSS
+
+         - ``eleman.sınıf``
+         - veya: ``.sınıf``
+
+
+.. slide:: Eleman sınıfı ayarı
+   :data-views: (200, 50, 0, 0.5)
 
    .. container:: columns
 
@@ -795,6 +818,14 @@
             tr.cift {
               background-color: #E0E0E0;
             }
+
+         .. container:: flex justify-around mt-8
+
+            .. image:: images/stil-sinif-once.*
+               :alt: Normalde hücre arkaplanları beyaz.
+
+            .. image:: images/stil-sinif-sonra.*
+               :alt: Kuraldan sonra çift numaralı hücrelerin arkaplanları gri.
 
    .. speaker-notes::
 
