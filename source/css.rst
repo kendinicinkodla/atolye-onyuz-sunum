@@ -628,6 +628,9 @@
 
             header a {
               text-decoration: none;
+            }
+
+            header nav a {
               margin-left: 1em;
             }
 
@@ -744,11 +747,6 @@
             img#poster {
               width: 100%;
               height: auto;
-            }
-
-            figure {
-              margin-left: 0;
-              margin-right: 0;
             }
 
       .. container:: column
