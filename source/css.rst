@@ -1157,6 +1157,38 @@
          :alt: Tablo ikinci sütunda.
 
 
+.. slide:: Çoklu sınıf
+
+   - bir elemana birden fazla sınıf atanabilir
+   - boşlukla ayırarak
+
+   .. container:: columns
+
+      .. container:: column
+
+         .. code-block:: html
+
+            <div class="sutun ucte-iki">
+              ...
+            </div>
+
+            <div class="sutun ucte-bir">
+              ...
+            </div>
+
+      .. container:: column
+
+         .. code-block:: css
+
+            .ucte-bir {
+              width: 33.3%;
+            }
+
+            .ucte-iki {
+              width: 66.7%;
+            }
+
+
 .. slide:: Kapanış
    :noheading:
    :class: contents
