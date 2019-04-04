@@ -989,6 +989,7 @@
 
 
 .. slide:: Paragraf içi eleman gruplama
+   :data-views: (-20, 0, 0, 0.5)
 
    .. container:: task
 
