@@ -99,6 +99,11 @@ tr.cift {
   margin-right: 1em;
 }
 
+.sutun img {
+  width: 100%;
+  height: auto;
+}
+
 .galeri img {
   border-radius: 50%;
 }
