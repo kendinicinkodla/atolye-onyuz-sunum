@@ -935,6 +935,55 @@
             </div> <!-- icerik -->
 
 
+.. slide:: Tasarım düzenlemeleri
+
+   .. container:: task
+
+      - başlığın arka plan rengini ayarlayalım
+      - kenarlara ve büyük fotoya dayayalım
+
+   .. container:: text-center
+
+      .. image:: images/stil-icice-div.*
+         :alt: Başlık kenarlara ve fotoya dayalı.
+
+
+.. slide:: Tasarım düzenlemeleri
+
+   .. container:: columns
+
+      .. container:: column mr-12
+
+         .. code-block:: html
+
+            <div class="afis">
+              <div class="icerik">
+                <h1>Karga</h1>
+              </div> <!-- icerik -->
+            </div> <!-- afis -->
+
+      .. container:: column flex flex-col items-start
+
+         .. code-block:: css
+
+            .afis {
+              background-color: #E0E0E0;
+            }
+
+            .afis h1 {
+              margin-top: 0;
+            }
+
+         .. container:: substep mt-8
+
+            .. code-block:: css
+
+               img#poster {
+                 display: block;
+               }
+
+
+
 .. slide:: Kapanış
    :noheading:
    :class: contents
