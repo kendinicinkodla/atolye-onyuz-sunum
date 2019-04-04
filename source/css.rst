@@ -1078,7 +1078,7 @@
 
         display: flex;
 
-   .. container:: columns mt-8
+   .. container:: columns mt-4
 
       .. container:: column
 
@@ -1092,14 +1092,20 @@
               margin-right: 1em;
             }
 
+            .sutun img {
+              width: 100%;
+              height: auto;
+            }
+
       .. container:: column text-center
 
          .. image:: images/stil-flex.*
             :alt: Galeri fotoları dört sütun halinde dizilmiş.
 
-   .. container:: substep task mt-4
+         .. container:: substep task mt-4 text-left
 
-      - resimleri yuvarlatalım, yazıları ortalayalım
+            - resimleri yuvarlatalım
+            - resim yazılarını ortalayalım
 
 
 .. slide:: Yuvarlak fotolar
