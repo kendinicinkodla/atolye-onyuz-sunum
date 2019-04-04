@@ -983,6 +983,45 @@
                }
 
 
+.. slide:: Paragraf içi eleman gruplama
+
+   .. container:: task
+
+      - ilk harfin boyunu büyütüp arka plan rengini değiştirelim
+
+   .. container:: column text-center
+
+      .. image:: images/stil-span.*
+         :alt: İlk harf daha büyük ve arka planı farklı.
+
+   .. container:: substep mt-8
+
+      - ``div`` paragraf düzeyinde gruplama için
+      - paragraf içi: ``span``
+
+
+.. slide:: Paragraf içi eleman gruplama
+
+   .. container:: flex flex-col items-start
+
+      .. code-block:: html
+
+         <p><span class="ilk-harf">İ</span>ri yapılı,
+           düz gagalı, ...</p>
+
+      .. code-block:: css
+
+         .ilk-harf {
+           font-family: Georgia, serif;
+           font-size: 3em;
+           float: left;
+           width: 1em;
+           margin-right: 0.15em;
+           background-color: #E0E0E0;
+           text-align: center;
+         }
+
+
 
 .. slide:: Kapanış
    :noheading:

@@ -1,25 +1,5 @@
 
 
-.. slide:: Paragraf içi grup
-
-   - gruplama elemanı: ``span``
-
-   .. code-block:: html
-
-      <p><span class="ilk-harf">İ</span>ri yapılı, düz gagalı,
-        pençeli, ...</p>
-
-   .. code-block:: css
-
-      .ilk-harf {
-        float: left;
-        font-family: 'Georgia', serif;
-        font-size: 3em;
-        line-height: 1em;
-        padding-right: 0.15em;
-      }
-
-
 .. slide:: Sütunlar
 
    - birden fazla sütun oluşturma
