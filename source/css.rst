@@ -919,7 +919,7 @@
 
       .. container:: column
 
-         - ``<!--`` ile başla 
+         - ``<!--`` ile başla
          - ``-->`` ile bitir
 
       .. container:: column
@@ -933,3 +933,10 @@
                 ...
               </section>
             </div> <!-- icerik -->
+
+
+.. slide:: Kapanış
+   :noheading:
+   :class: contents
+
+   CSS bölümünün sonu

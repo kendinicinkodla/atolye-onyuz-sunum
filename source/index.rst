@@ -14,11 +14,11 @@
 
    .. container:: columns
 
-      .. container:: column flex flex-col items-center justify-center
+      .. container:: column w-1/2 flex flex-col items-center
 
          .. rst-class:: border-b-2 border-grey px-4 mb-8
 
-            içerik
+         içerik
 
          ..
 
@@ -26,11 +26,11 @@
          - resimler
          - ...
 
-      .. container:: column flex flex-col items-center justify-center
+      .. container:: column w-1/2 flex flex-col items-center
 
          .. rst-class:: border-b-2 border-grey px-4 mb-8
 
-            biçim
+         biçim
 
          ..
 
@@ -53,6 +53,6 @@
    :noheading:
    :class: contents
 
-   giriş sunumunun sonu
+   giriş bölümünün sonu
 
-   `HTML sunumu <html.html>`_
+   ➤ `HTML <html.html>`_

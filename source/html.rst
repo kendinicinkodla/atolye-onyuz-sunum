@@ -691,6 +691,6 @@
    :noheading:
    :class: contents
 
-   HTML sunumunun sonu
+   HTML bölümünün sonu
 
-   `CSS sunumu <css.html>`_
+   ➤ `CSS <css.html>`_
