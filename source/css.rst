@@ -1028,6 +1028,128 @@
          }
 
 
+.. slide:: Sütunlar
+
+   .. container:: task
+
+      - galeri fotolarını sütunlara dizelim
+      - her sütun için bir ``div`` tanımlayalım
+      - sütunları gruplamak için de bir üst ``div``
+
+
+.. slide:: Sütunlar
+
+   .. container:: columns
+
+      .. container:: column mr-12
+
+         .. code-block:: html
+
+            <div class="sutun">
+              <figure>
+                ...
+              </figure>
+            </div> <!-- sutun: 1 -->
+
+      .. container:: column flex flex-col items-start
+
+         .. code-block:: html
+
+            <div class="sutunlar">
+
+               <div class="sutun">
+                   ...
+               </div> <!-- sutun: 1 -->
+
+               ...
+
+               <div class="sutun">
+                   ...
+               </div> <!-- sutun: 4 -->
+
+            </div> <!-- sutunlar -->
+
+
+.. slide:: Eleman dizme
+
+   .. container:: ref
+
+      ::
+
+        display: flex;
+
+   .. container:: columns mt-8
+
+      .. container:: column
+
+         .. code-block:: css
+
+            .sutunlar {
+              display: flex;
+            }
+
+            .sutun {
+              margin-right: 1em;
+            }
+
+      .. container:: column text-center
+
+         .. image:: images/stil-flex.*
+            :alt: Galeri fotoları dört sütun halinde dizilmiş.
+
+   .. container:: substep task mt-4
+
+      - resimleri yuvarlatalım, yazıları ortalayalım
+
+
+.. slide:: Yuvarlak fotolar
+
+   .. container:: flex flex-col items-start
+
+      .. code-block:: html
+         :emphasize-lines: 1
+
+         <section class="galeri">
+           <h2>Galeri</h2>
+             ...
+         </section> <!-- galeri -->
+
+   .. container:: columns mt-8
+
+      .. container:: column
+
+         .. code-block:: css
+
+            .galeri img {
+              border-radius: 50%;
+            }
+
+            .galeri figcaption {
+              text-align: center;
+            }
+
+      .. container:: column
+
+         .. image:: images/stil-yuvarlak.*
+            :alt: Galeri fotoları yuvarlak, foto yazıları ortadan hizalı.
+
+   .. speaker-notes::
+
+      - Değişik ``border-radius`` ayarları denesinler.
+
+
+.. slide:: Yerleştirme düzenlemesi
+   :data-views: (-20, 0, 0, 0.6)
+
+   .. container:: task
+
+      - yazıları birinci, tabloyu ikinci sütuna alalım
+
+   .. container:: w-1/2 m-auto
+
+      .. image:: images/stil-ana-sutunlar.*
+         :alt: Tablo ikinci sütunda.
+
 
 .. slide:: Kapanış
    :noheading:
