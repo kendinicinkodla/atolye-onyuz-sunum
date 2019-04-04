@@ -12,13 +12,14 @@
 
 
 .. slide:: İçindekiler
+   :id: genel-yapi
    :class: contents
 
    - *genel yapı*
-   - yazı stilleri
-   - renkler
-   - boşluklar
-   - yerleştirme
+   - `yazı stilleri <#yazi-stilleri>`_
+   - `renkler <#renkler>`_
+   - `boşluklar <#bosluklar>`_
+   - `yerleştirme <#yerlestirme>`_
 
 
 .. slide:: CSS
@@ -101,13 +102,14 @@
 
 
 .. slide:: İçindekiler
+   :id: yazi-stilleri
    :class: contents
 
-   - genel yapı
+   - `genel yapı <#genel-yapi>`_
    - *yazı stilleri*
-   - renkler
-   - boşluklar
-   - yerleştirme
+   - `renkler <#renkler>`_
+   - `boşluklar <#bosluklar>`_
+   - `yerleştirme <#yerlestirme>`_
 
 
 .. slide:: Yazı tipi
@@ -371,13 +373,14 @@
 
 
 .. slide:: İçindekiler
+   :id: renkler
    :class: contents
 
-   - genel yapı
-   - yazı stilleri
+   - `genel yapı <#genel-yapi>`_
+   - `yazı stilleri <#yazi-stilleri>`_
    - *renkler*
-   - boşluklar
-   - yerleştirme
+   - `boşluklar <#bosluklar>`_
+   - `yerleştirme <#yerlestirme>`_
 
 
 .. slide:: Yazı rengi
@@ -478,13 +481,14 @@
 
 
 .. slide:: İçindekiler
+   :id: bosluklar
    :class: contents
 
-   - genel yapı
-   - yazı stilleri
-   - renkler
+   - `genel yapı <#genel-yapi>`_
+   - `yazı stilleri <#yazi-stilleri>`_
+   - `renkler <#renkler>`_
    - *boşluklar*
-   - yerleştirme
+   - `yerleştirme <#yerlestirme>`_
 
 
 .. slide:: Boşluklar
@@ -663,12 +667,13 @@
 
 
 .. slide:: İçindekiler
+   :id: yerlestirme
    :class: contents
 
-   - genel yapı
-   - yazı stilleri
-   - renkler
-   - boşluklar
+   - `genel yapı <#genel-yapi>`_
+   - `yazı stilleri <#yazi-stilleri>`_
+   - `renkler <#renkler>`_
+   - `boşluklar <#bosluklar>`_
    - *yerleştirme*
 
 
