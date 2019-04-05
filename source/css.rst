@@ -1071,6 +1071,7 @@
 
 
 .. slide:: Eleman dizme
+   :data-views: (200, 0, 0, 0.5)
 
    .. container:: ref
 
@@ -1086,15 +1087,7 @@
 
             .sutunlar {
               display: flex;
-            }
-
-            .sutun {
-              margin-right: 1em;
-            }
-
-            .sutun img {
-              width: 100%;
-              height: auto;
+              justify-content: space-between;
             }
 
       .. container:: column text-center
@@ -1102,10 +1095,10 @@
          .. image:: images/stil-flex.*
             :alt: Galeri fotoları dört sütun halinde dizilmiş.
 
-         .. container:: substep task mt-4 text-left
+   .. container:: substep task mt-4 text-left
 
-            - resimleri yuvarlatalım
-            - resim yazılarını ortalayalım
+      - resimleri yuvarlatalım
+      - resim yazılarını ortalayalım
 
 
 .. slide:: Yuvarlak fotolar
@@ -1172,17 +1165,9 @@
               ...
             </div>
 
-            <div class="sutun ucte-bir">
-              ...
-            </div>
-
       .. container:: column
 
          .. code-block:: css
-
-            .ucte-bir {
-              width: 33.3%;
-            }
 
             .ucte-iki {
               width: 66.7%;
