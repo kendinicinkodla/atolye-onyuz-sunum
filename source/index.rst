@@ -12,6 +12,7 @@
    .. container:: svg-invert mt-8
 
       .. image:: kik-logo.*
+         :target: https://kendinicinkodla.org/
          :alt: Kendin için Kodla logosu.
          :width: 128
 
