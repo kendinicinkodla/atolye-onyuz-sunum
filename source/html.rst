@@ -10,10 +10,38 @@
 
       Mart 2019
 
-   .. container:: logo mt-8
+   .. container:: svg-invert mt-8
 
       .. image:: kik-logo.*
          :alt: Kendin için Kodla logosu.
+         :width: 128
+
+
+.. slide:: Lisans
+   :class: contents
+
+   .. container:: columns
+
+      .. container:: column mr-4
+
+         .. image:: cc-by-nc-sa.*
+            :alt: Creative Commons BY-NC-SA lisansı.
+            :width: 192
+
+      .. container:: column text-xl
+
+         | Creative Commons
+         | Atıf - GayriTicari - AynıLisanslaPaylaş 4.0 Uluslararası
+
+   .. container:: text-xl mt-12
+
+      - yazarının adı belirtilmelidir
+      - ticari amaçla kullanılamaz
+      - türetilen eserler aynı lisansla paylaşılmalıdır
+
+   .. container:: mt-8
+
+      `ayrıntılı bilgi <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.tr>`_
 
 
 .. slide:: İçindekiler
