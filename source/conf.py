@@ -103,3 +103,4 @@ html_static_path = ['_static']
 # html_sidebars = {}
 
 html_use_index = False
+html_copy_source = False
