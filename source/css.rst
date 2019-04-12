@@ -10,6 +10,11 @@
 
       Mart 2019
 
+   .. container:: logo mt-8
+
+      .. image:: kik-logo.*
+         :alt: Kendin için Kodla logosu.
+
 
 .. slide:: İçindekiler
    :id: genel-yapi
