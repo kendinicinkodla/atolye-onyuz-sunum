@@ -7,7 +7,7 @@
 
       \H. Turgut Uyar
 
-      Mart 2019
+      Aralık 2022
 
    .. container:: svg-invert mt-8
 

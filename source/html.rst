@@ -8,7 +8,7 @@
 
       \H. Turgut Uyar
 
-      Mart 2019
+      Aralık 2022
 
    .. container:: svg-invert mt-8
 
@@ -110,23 +110,23 @@
    - nasıl tablo yapacağım?
    - bir yeri nasıl vurgulayacağım?
 
-   ..
+   .. container:: substep
 
-   - işaretler koyalım
+      - işaretler koyalım
 
 
 .. slide:: İşaretleme
 
    - | işaretlemek istediğimiz yerin başına ve sonuna
-     | *etiketler* yazıyoruz:
+     | *takılar* yazıyoruz:
 
    .. code-block:: xml
 
-      <etiket>işaretlenen bölge</etiket>
+      <takı>işaretlenen bölge</takı>
 
    .. rst-class:: mt-8
 
-   - her etiket çifti bir *eleman* işaretliyor
+   - her takı çifti bir *eleman* işaretliyor
 
 
 .. slide:: Temel elemanlar
@@ -223,11 +223,12 @@
 
 .. slide:: Boş elemanlar
 
-   - bazı elemanların kapanış etiketi yok:
+   - bazı elemanların kapanış takısı yok
+   - örnek: yatay çizgi
 
    .. code-block:: xml
 
-      <etiket/>
+      <hr>
 
 
 .. slide:: Eleman nitelikleri
@@ -268,17 +269,11 @@
      - ``head``: sayfayla ilgili bilgiler (baş)
      - ``body``: sayfanın içeriği (gövde)
 
-   ..
-
-   - | HTML dosyası olduğunu belirtmek için başa:
-     | ``DOCTYPE``
-
 
 .. slide:: Şablon
 
    .. code-block:: html
 
-      <!DOCTYPE html>
       <html lang="tr">
         <head>
           ... sayfa bilgileri ...
@@ -340,7 +335,7 @@
             .. code-block:: html
 
                <head>
-                 <meta charset="utf-8"/>
+                 <meta charset="utf-8">
                </head>
 
          .. container:: column self-center
@@ -361,8 +356,8 @@
    .. code-block:: html
 
       <head>
-        <meta charset="utf-8"/>
-        <title>Doğa Kaşifleri - Karga</title>
+        <meta charset="utf-8">
+        <title>Doğa Kâşifleri - Karga</title>
       </head>
 
    .. speaker-notes::
@@ -423,8 +418,7 @@
 
    - resim: ``img``
    - adres niteliği: ``src``
-   - genişlik ve yükseklik nitelikleri: ``width``, ``height``
-   - yerine konacak metin niteliği: ``alt``
+   - kapatma takısı yok
 
    .. speaker-notes::
 
@@ -436,10 +430,7 @@
 
    .. code-block:: html
 
-      <img src="karga.jpg"
-           width="1280"
-           height="427"
-           alt="Bir parkta çimenlerin önüne konmuş bir karga."/>
+      <img src="karga.jpg">
 
    .. container:: text-center mt-4
 
@@ -472,17 +463,13 @@
    .. code-block:: html
 
       <figure>
-        <img src="karga_1.jpg"
-             width="128"
-             height="128"
-             alt="Foto 1"/>
-        <figcaption>Foto 1</figcaption>
+        <img src="karga_1.jpg">
+        <figcaption>Tür 1</figcaption>
       </figure>
 
    .. container:: task substep mt-4
 
-      - büyük fotoyu ``figure`` içine alalım, yazısı olmasın
-      - bütün küçük resimleri ekleyelim
+      - bütün küçük resimleri altyazılarıyla ekleyelim
 
    .. speaker-notes::
 
@@ -655,10 +642,7 @@
          .. code-block:: html
 
             <header>
-              <img src="logo_siyah.png"
-                   width="434"
-                   height="88"
-                   alt="Doğa Kaşifleri logosu"/>
+              <img src="logo_siyah.png"/>
             </header>
 
          .. container:: substep task
