@@ -13,6 +13,10 @@ h1 {
   font-size: 3em;
 }
 
+td, th {
+  padding: 0.75em;
+}
+
 th {
   text-align: left;
 }
@@ -22,32 +26,34 @@ em {
   color: crimson;
 }
 
-footer {
-  background-color: black;
-  color: white;
-  text-align: right;
-  font-size: 0.8em;
-  margin-top: 4em;
-  padding: 1em;
-}
-
 figure {
   margin: 0;
 }
 
-header {
-  padding: 0 0.5em 0 0.5em;
-  margin-bottom: 0.5em;
+header, footer {
+  padding: 1em 2em;
 }
 
-header nav {
-  text-align: right;
+header {
+  margin-bottom: 1em;
 }
 
 header a {
   text-decoration: none;
 }
 
+header nav {
+  text-align: right;
+}
+
 header nav a {
   margin-left: 1em;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 0.8em;
+  text-align: right;
+  margin-top: 4em;
 }

@@ -533,7 +533,7 @@
 
       ::
 
-        margin-YÖN: UZAKLIK;
+        margin-KENAR: UZAKLIK;
 
    - sol: ``margin-left``
    - sağ: ``margin-right``
@@ -565,7 +565,7 @@
 
 .. slide:: Dış boşluklar
 
-   - yön belirtilmezse: bütün yönlerden aynı uzaklık
+   - tek değer: bütün kenarlardan aynı uzaklık
 
    .. code-block:: css
 
@@ -575,15 +575,15 @@
 
    .. container:: substep mt-4
 
-      - 4 yön birden: ``üst sağ alt sol`` sırasıyla
+      - 4 değer: ``üst sağ alt sol``
 
       ..
 
-      - ``auto`` niteliği kullanılırsa iki yandan aynı boşluk
+      - 2 değer: ``dikey yatay``
 
    .. speaker-notes::
 
-      - Yönlerin verilişi saat yönünde.
+      - Değerlerin verilişi saat yönünde.
 
 
 .. slide:: İç boşluklar
@@ -672,12 +672,10 @@
 
    .. container:: task
 
-      - üstlüğü düzenleyelim:
-
-        - renkler
-        - logo
-        - yazı tipleri
-        - boşluklar
+      - navigasyon sağa dayansın
+      - üstlükle resim arasına boşluk girsin
+      - üstlük ile altlıkta aynı kenar payları olsun
+      - tablo hücrelerinde kenar payı olsun
 
    .. speaker-notes::
 
@@ -765,15 +763,11 @@
 
          .. code-block:: html
 
-            <img src="karga.jpg"
-                 id="poster"
-                 width="1280"
-                 height="427"
-                 alt="Bir parkta ..."/>
+            <img src="karga.jpg" id="poster">
 
          .. code-block:: css
 
-            img#poster {
+            #poster {
               width: 100%;
               height: auto;
             }
@@ -782,19 +776,6 @@
 
          .. image:: images/stil-id.*
             :alt: Kuraldan sonra resmin genişliği sayfayla aynı.
-
-
-.. slide:: Maksimum genişlik
-
-   .. container:: ref
-
-      ::
-
-        max-width: BOYUT;
-
-   .. container:: task mt-8
-
-      - logonun genişliği en fazla 360px olsun
 
 
 .. slide:: Çoklu eleman seçme
@@ -861,8 +842,8 @@
 
          .. code-block:: css
 
-            tr.cift {
-              background-color: #E0E0E0;
+            .cift {
+              background-color: lightgray;
             }
 
          .. container:: flex justify-around mt-8
@@ -890,14 +871,21 @@
 
    .. container:: task
 
-      - içerik kısmına yanlardan boşluk bırakalım
+      - gövde kenarlara dayansın
+      - başlığın arka plan rengi, hizalaması, boşluklar
 
-      ..
+   .. container:: text-center
 
-      - büyük resim kenarlara dayalı
-      - başlığın arka plan rengi var
+      .. image:: images/stil-icice-div.*
+         :alt: Başlık kenarlara ve fotoya dayalı.
 
-   - kuralı hangi elemana uygulayacağız?
+
+.. slide:: Sütunlar
+
+   .. container:: task
+
+      - galeri fotolarını sütunlara dizelim
+      - yerleştirme için bir üst elemana ihtiyacımız var
 
 
 .. slide:: Eleman gruplama
@@ -907,191 +895,15 @@
 
 
 .. slide:: Eleman gruplama
-   :data-views: (200, 200, 0, 0.5)
 
-   .. container:: columns
-
-      .. container:: column flex flex-col items-start mr-12
-
-         .. code-block:: html
-
-            <div class="icerik">
-              <p>İri yapılı, ...</p>
-              ...
-              <section>
-                ...
-              </section>
-            </div>
-
-         .. code-block:: css
-
-            .icerik {
-              max-width: 50em;
-              margin: 0 auto;
-            }
-
-      .. container:: column
-
-         .. image:: images/stil-div.*
-            :alt: Kuraldan sonra içerik kısmı daha dar ve ortaya hizalı.
-
-
-.. slide:: Kod açıklamaları
-
-   - hangi elemanı kapattığını takip etmek zorlaşıyor
-
-   ..
-
-   - açıklama yazmak okurken yardımcı olur:
-
-   .. container:: columns
-
-      .. container:: column
-
-         - ``<!--`` ile başla
-         - ``-->`` ile bitir
-
-      .. container:: column
-
-         .. code-block:: html
-
-            <div class="icerik">
-              <p>İri yapılı, ...</p>
-              ...
-              <section>
-                ...
-              </section>
-            </div> <!-- icerik -->
-
-
-.. slide:: Tasarım düzenlemeleri
-
-   .. container:: task
-
-      - başlığın arka plan rengini ayarlayalım
-      - kenarlara ve büyük fotoya dayayalım
-
-   .. container:: text-center
-
-      .. image:: images/stil-icice-div.*
-         :alt: Başlık kenarlara ve fotoya dayalı.
-
-
-.. slide:: Tasarım düzenlemeleri
-
-   .. container:: columns
-
-      .. container:: column mr-12
-
-         .. code-block:: html
-
-            <div class="afis">
-              <div class="icerik">
-                <h1>Karga</h1>
-              </div> <!-- icerik -->
-            </div> <!-- afis -->
-
-      .. container:: column flex flex-col items-start
-
-         .. code-block:: css
-
-            .afis {
-              background-color: #E0E0E0;
-            }
-
-            .afis h1 {
-              margin-top: 0;
-            }
-
-         .. container:: substep mt-8
-
-            .. code-block:: css
-
-               img#poster {
-                 display: block;
-               }
-
-
-.. slide:: Paragraf içi eleman gruplama
-   :data-views: (-20, 0, 0, 0.5)
-
-   .. container:: task
-
-      - ilk harfin boyunu büyütüp arka plan rengini değiştirelim
-
-   .. container:: column text-center
-
-      .. image:: images/stil-span.*
-         :alt: İlk harf daha büyük ve arka planı farklı.
-
-   .. container:: substep mt-8
-
-      - ``div`` paragraf düzeyinde gruplama için
-      - paragraf içi: ``span``
-
-
-.. slide:: Paragraf içi eleman gruplama
-
-   .. container:: flex flex-col items-start
-
-      .. code-block:: html
-
-         <p><span class="ilk-harf">İ</span>ri yapılı,
-           düz gagalı, ...</p>
-
-      .. code-block:: css
-
-         .ilk-harf {
-           font-family: Georgia, serif;
-           font-size: 3em;
-           float: left;
-           width: 1em;
-           margin-right: 0.15em;
-           background-color: #E0E0E0;
-           text-align: center;
-         }
-
-
-.. slide:: Sütunlar
-
-   .. container:: task
-
-      - galeri fotolarını sütunlara dizelim
-      - her sütun için bir ``div`` tanımlayalım
-      - sütunları gruplamak için de bir üst ``div``
-
-
-.. slide:: Sütunlar
-
-   .. container:: columns
-
-      .. container:: column mr-12
-
-         .. code-block:: html
-
-            <div class="sutun">
-              <figure>
-                ...
-              </figure>
-            </div> <!-- sutun: 1 -->
-
-      .. container:: column flex flex-col items-start
-
-         .. code-block:: html
-
-            <div class="sutunlar">
-
-               <div class="sutun">
-                   ...
-               </div> <!-- sutun: 1 -->
-
-               ...
-
-               <div class="sutun">
-                   ...
-               </div> <!-- sutun: 4 -->
-
-            </div> <!-- sutunlar -->
+   .. code-block:: html
+
+      <div class="resimler">
+      <figure>...</figure>
+      <figure>...</figure>
+      <figure>...</figure>
+      <figure>...</figure>
+      </div>
 
 
 .. slide:: Eleman dizme
@@ -1109,9 +921,8 @@
 
          .. code-block:: css
 
-            .sutunlar {
+            .resimler {
               display: flex;
-              justify-content: space-between;
             }
 
       .. container:: column text-center
@@ -1119,46 +930,42 @@
          .. image:: images/stil-flex.*
             :alt: Galeri fotoları dört sütun halinde dizilmiş.
 
-   .. container:: substep task mt-4 text-left
 
-      - resimleri yuvarlatalım
-      - resim yazılarını ortalayalım
+.. slide:: Yerleştirme
+
+   - poster (``#poster``)
+   - başlık (``h1``)
+   - *bilgiler*, künye (``table``)
+   - *galeri*
+
+   .. container:: substep
+
+      - soldan ve sağdan boşluklar
 
 
-.. slide:: Yuvarlak fotolar
+.. slide:: Eleman gruplama
 
-   .. container:: flex flex-col items-start
-
-      .. code-block:: html
-         :emphasize-lines: 1
-
-         <section class="galeri">
-           <h2>Galeri</h2>
-             ...
-         </section> <!-- galeri -->
-
-   .. container:: columns mt-8
+   .. container:: columns
 
       .. container:: column
 
-         .. code-block:: css
+         .. code-block:: html
 
-            .galeri img {
-              border-radius: 50%;
-            }
-
-            .galeri figcaption {
-              text-align: center;
-            }
+            <div class="bilgi">
+              <p>İri yapılı, ...</p>
+              ...
+              <ul>
+                ...
+              </ul>
+            </div>
 
       .. container:: column
 
-         .. image:: images/stil-yuvarlak.*
-            :alt: Galeri fotoları yuvarlak, foto yazıları ortadan hizalı.
+         .. code-block:: html
 
-   .. speaker-notes::
-
-      - Değişik ``border-radius`` ayarları denesinler.
+            <section class="galeri">
+              ...
+            </section>
 
 
 .. slide:: Yerleştirme düzenlemesi
@@ -1203,3 +1010,15 @@
    :class: contents
 
    CSS bölümünün sonu
+
+.. slide:: Maksimum genişlik
+
+   .. container:: ref
+
+      ::
+
+        max-width: BOYUT;
+
+   .. container:: task mt-8
+
+      - logonun genişliği en fazla 360px olsun
