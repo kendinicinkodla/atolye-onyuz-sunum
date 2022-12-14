@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,700|Nunito:400,700');
 
 body {
-  font-family: 'Cabin', sans-serif;
-  font-size: 1.125rem;
+  font-family: 'Cabin';
   line-height: 1.5;
 }
 
 h1, h2 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito';
 }
 
 h1 {
@@ -20,12 +19,12 @@ th {
 
 em {
   font-style: normal;
-  color: #C00000;
+  color: crimson;
 }
 
 footer {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: black;
+  color: white;
   text-align: right;
   font-size: 0.8em;
   margin-top: 4em;

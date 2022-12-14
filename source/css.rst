@@ -8,7 +8,7 @@
 
       \H. Turgut Uyar
 
-      Mart 2019
+      Aralık 2022
 
    .. container:: svg-invert mt-8
 
@@ -79,9 +79,9 @@
       :emphasize-lines: 4
 
       <head>
-        <meta charset="utf-8"/>
-        <title>Doğa Kaşifleri - Karga</title>
-        <link rel="stylesheet" href="kik.css"/>
+        <meta charset="utf-8">
+        <title>Doğa Kâşifleri - Karga</title>
+        <link rel="stylesheet" href="kik.css">
       </head>
 
 
@@ -152,13 +152,10 @@
 
       ::
 
-        font-family: 'Seçenek 1', 'Seçenek 2', 'Seçenek 3';
+        font-family: 'Aile';
 
-   - her seçenek bir yazı tipi "ailesi"
-   - sıradaki seçeneği bulamıyorsan sonrakine geç
-
-   - | son seçenek şunlardan biri olmalı:
-     | ``serif``, ``sans-serif``, ``monospace``
+   - birden fazla yazı tipi ailesi verilebilir
+   - sıradakini bulamıyorsan sonrakine geç
 
 
 .. slide:: Google Fonts
@@ -167,7 +164,7 @@
 
    ..
 
-   - önce stil dosyasına alınmalı
+   - önce yazı tipi dosyaları alınmalı
 
    .. rst-class:: small
 
@@ -197,7 +194,7 @@
    .. code-block:: css
 
       body {
-        font-family: 'Cabin', sans-serif;
+        font-family: 'Cabin';
       }
 
    .. container:: columns mt-8
@@ -229,7 +226,7 @@
       .. code-block:: css
 
          h1, h2 {
-           font-family: 'Nunito', sans-serif;
+           font-family: 'Nunito';
          }
 
 
@@ -246,8 +243,7 @@
    ..
 
    - ``px``
-   - ``em`` --- geçerli boya göre ölçek
-   - ``rem`` --- taban boya göre ölçek
+   - ``em`` --- şu anki boya oranla
 
    .. speaker-notes::
 
@@ -257,18 +253,13 @@
 
 
 .. slide:: Yazı boyu
-   :data-views: (250, 0, 0, 0.5)
+   :data-views: (0, 0, 0, 0.5)
 
    .. container:: columns
 
       .. container:: column mr-8
 
          .. code-block:: css
-
-            body {
-              font-family: 'Cabin', sans-serif;
-              font-size: 1.125rem;
-            }
 
             h1 {
               font-size: 3em;
@@ -339,7 +330,6 @@
 
    - normal: ``normal``
    - kalın: ``bold``
-   - veya: ``400``, ``700``
 
 
 .. slide:: Yazı tipi ağırlığı
@@ -425,8 +415,9 @@
 
         color: RENK;
 
-   - rengin ismi: ``white``, ``black``, ``red``, ...
-   - RGB değeri
+   - renk isimleri: ``white``, ``black``, ``red``, ...
+
+   https://www.w3schools.com/cssref/css_colors.php
 
    .. speaker-notes::
 
@@ -440,7 +431,7 @@
 
       em {
         font-style: normal;
-        color: #C00000;
+        color: crimson;
       }
 
    .. container:: columns mt-8
@@ -496,8 +487,7 @@
    .. code-block:: css
 
       body {
-        font-family: 'Cabin', sans-serif;
-        font-size: 1.125rem;
+        font-family: 'Cabin';
         line-height: 1.5;
       }
 
