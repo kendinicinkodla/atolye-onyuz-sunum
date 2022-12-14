@@ -153,7 +153,7 @@
 
       .. container:: column
 
-         .. image:: images/karga_etiketler.*
+         .. image:: images/karga_takilar.*
             :alt: Paragraf ve başlık elemanlarının kullanımı.
 
    .. speaker-notes::
@@ -189,7 +189,7 @@
 
    .. speaker-notes::
 
-      - Editörde kod katlama özelliğini kullanarak açma/kapama etiketlerinin
+      - Editörde kod katlama özelliğini kullanarak açma/kapama takılarının
         nasıl eşleştiklerini göster.
 
 
@@ -234,7 +234,7 @@
 .. slide:: Eleman nitelikleri
 
    - elemanların nitelikleri olabilir
-   - açılış etiketinde belirtilir
+   - açılış takısında belirtilir
 
    ..
 
