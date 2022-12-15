@@ -880,12 +880,12 @@
          :alt: Başlık kenarlara ve fotoya dayalı.
 
 
-.. slide:: Sütunlar
+.. slide:: Tasarım düzenlemeleri
 
    .. container:: task
 
-      - galeri fotolarını sütunlara dizelim
-      - yerleştirme için bir üst elemana ihtiyacımız var
+      - ana içeriği daraltıp topluca ortalayalım
+      - giriş, beslenme, türler, künye, galeri
 
 
 .. slide:: Eleman gruplama
@@ -893,16 +893,55 @@
    - gruplama elemanı: ``div``
    - çoğu zaman ``class`` niteliğiyle kullanılır
 
+   .. code-block:: html
 
-.. slide:: Eleman gruplama
+      <div class="icerik">
+        <p>İri yapılı, düz gagalı...</p>
+        ...
+        <section>
+          <h2>Galeri</h2>
+          ...
+        </section>
+      </div>
+
+
+.. slide:: Maksimum genişlik
+
+   .. container:: ref
+
+      ::
+
+        max-width: BOYUT;
+
+   - yatay ortalama için ``margin``: ``auto``
+
+   .. code-block:: css
+
+      .icerik {
+        max-width: 50em;
+        margin: 0 auto;
+      }
+
+   .. speaker-notes::
+
+      - İstenirse bu kurallar ``header`` ve ``footer p``
+        elemanlarına da uygulanabilir.
+
+
+.. slide:: Sütunlar
+
+   .. container:: task
+
+      - galeri fotolarını sütunlara dizelim
+      - yerleştirme için bir üst elemana ihtiyacımız var
 
    .. code-block:: html
 
       <div class="resimler">
-      <figure>...</figure>
-      <figure>...</figure>
-      <figure>...</figure>
-      <figure>...</figure>
+        <figure>...</figure>
+        <figure>...</figure>
+        <figure>...</figure>
+        <figure>...</figure>
       </div>
 
 
@@ -925,6 +964,10 @@
               display: flex;
             }
 
+            .resimler figure {
+              width: 25%;
+            }
+
       .. container:: column text-center
 
          .. image:: images/stil-flex.*
@@ -933,17 +976,16 @@
 
 .. slide:: Yerleştirme
 
-   - poster (``#poster``)
-   - başlık (``h1``)
-   - *bilgiler*, künye (``table``)
-   - *galeri*
+   - içerik kısmında istenen yerleştirme::
 
-   .. container:: substep
+       | bilgiler | künye |
 
-      - soldan ve sağdan boşluklar
+       | galeri           |
+
+   - elemanları sınıflarda toplayalım
 
 
-.. slide:: Eleman gruplama
+.. slide:: Yerleştirme sınıfları
 
    .. container:: columns
 
@@ -963,46 +1005,94 @@
 
          .. code-block:: html
 
-            <section class="galeri">
+            <table class="kunye">
               ...
-            </section>
+            </table>
+
+   .. code-block:: html
+
+      <section class="galeri">
+        ...
+      </section>
 
 
-.. slide:: Yerleştirme düzenlemesi
-   :data-views: (-20, 0, 0, 0.6)
+.. slide:: İki boyutlu yerleştirme
 
-   .. container:: task
+   .. container:: ref
 
-      - yazıları birinci, tabloyu ikinci sütuna alalım
+      ::
 
-   .. container:: w-1/2 m-auto
+        display: grid;
+        grid-template-areas: YERLEŞİM;
 
-      .. image:: images/stil-ana-sutunlar.*
-         :alt: Tablo ikinci sütunda.
+   - yerleşim sayfadaki bölümlere isim verir
+   - o bölüme gelecek eleman:
+
+   .. container:: ref
+
+      ::
+
+        grid-area: İSİM;
 
 
-.. slide:: Çoklu sınıf
-
-   - bir elemana birden fazla sınıf atanabilir
-   - boşlukla ayırarak
+.. slide:: Yerleştirilmiş sayfa
 
    .. container:: columns
 
       .. container:: column
 
-         .. code-block:: html
+         .. code-block:: css
 
-            <div class="sutun ucte-iki">
-              ...
-            </div>
+            .icerik {
+              display: grid;
+              grid-template-areas:
+                "bilgi  kunye"
+                "galeri galeri";
+              max-width: 50em;
+              margin: 0 auto;
+            }
 
       .. container:: column
 
          .. code-block:: css
 
-            .ucte-iki {
-              width: 66.7%;
+            .bilgi {
+              grid-area: bilgi;
             }
+
+            .kunye {
+              grid-area: kunye;
+            }
+
+            .galeri {
+              grid-area: galeri;
+            }
+
+
+.. slide:: Tasarım düzenlemeleri
+
+   .. container:: task
+
+      - | bilgi ile künye arasında biraz boşluk olsun:
+        | ``grid-column-gap``
+
+      - | tablo satır yüksekliği artmasın:
+        | ``fit-content``
+
+
+.. slide:: Tasarım düzenlemeleri
+
+   .. container:: task
+
+      - | galeri fotoları yuvarlak olsun
+        | ``border-radius``
+
+      - foto altyazıları ortalansın
+
+      .. container:: column text-center
+
+         .. image:: images/stil-yuvarlak.*
+            :alt: Galeri fotoları yuvarlak ve altyazıları ortalı.
 
 
 .. slide:: Kapanış
@@ -1010,15 +1100,3 @@
    :class: contents
 
    CSS bölümünün sonu
-
-.. slide:: Maksimum genişlik
-
-   .. container:: ref
-
-      ::
-
-        max-width: BOYUT;
-
-   .. container:: task mt-8
-
-      - logonun genişliği en fazla 360px olsun

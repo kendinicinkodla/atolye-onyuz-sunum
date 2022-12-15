@@ -71,16 +71,3 @@ footer {
 .cift {
   background-color: lightgray;
 }
-
-.icerik {
-  max-width: 50em;
-  margin: 0 auto;
-}
-
-.resimler {
-  display: flex;
-}
-
-.resimler figure {
-  width: 25%;
-}

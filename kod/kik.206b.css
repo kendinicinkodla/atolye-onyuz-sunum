@@ -73,8 +73,26 @@ footer {
 }
 
 .icerik {
+  display: grid;
+  grid-template-areas:
+    "bilgi  kunye"
+    "galeri galeri";
+  grid-column-gap: 2em;
   max-width: 50em;
   margin: 0 auto;
+}
+
+.bilgi {
+  grid-area: bilgi;
+}
+
+.kunye {
+  grid-area: kunye;
+  height: fit-content;
+}
+
+.galeri {
+  grid-area: galeri;
 }
 
 .resimler {
@@ -83,4 +101,12 @@ footer {
 
 .resimler figure {
   width: 25%;
+}
+
+.resimler img {
+  border-radius: 50%;
+}
+
+.resimler figcaption {
+  text-align: center;
 }
